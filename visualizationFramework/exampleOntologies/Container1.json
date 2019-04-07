@@ -1,0 +1,2095 @@
+{
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://example.org/ontologies/exampleOntology", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "gizmo" : "http://example.org/ontologies/gizmo-core#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+      "view_2" : "http://example.org/view_2#",
+      "view_1" : "http://example.org/view_1#",
+      "view_4" : "http://example.org/view_4#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "view_3" : "http://example.org/view_3#",
+      "exampleOntology_container_0" : "http://example.org/exampleOntology_container_0#",
+      "exampleOntology_container_0_container_0" : "http://example.org/exampleOntology_container_0_container_0#",
+      "view_0" : "http://example.org/view_0#",
+      "umlStyle" : "http://example.org/ontologies/umlStyle#",
+      "" : "http://example.org/ontologies/exampleOntology#",
+      "dc" : "http://purl.org/dc/elements/1.1/#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "exampleNotation" : "http://example.org/ontologies/exampleNotation#",
+      "vowl" : "http://example.org/ontologies/vowl#",
+      "default" : "http://example.org/ontologies/default#"
+    },
+    "iri" : "http://example.org/exampleOntology_container_0_container_0"
+  },
+  "namespace" : [ ],
+  "gizmoAnnotations" : [ {
+    "iri" : "http://example.org/view_0#tripleObject_0",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_1",
+      "predicateElement" : ":isCreatedBy",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_0:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_1",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_3",
+      "predicateElement" : ":primary_topic",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_0:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_2",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_5",
+      "predicateElement" : ":knows",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_0:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_3",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_6",
+      "predicateElement" : ":name",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_0:element_7"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_4",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_8",
+      "predicateElement" : ":publication",
+      "objectElement" : ":Creative_Work",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_0:element_0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_5",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_9",
+      "predicateElement" : ":age",
+      "objectElement" : "xsd:integer",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_0:element_10"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#defaultDatatypeElement",
+    "annotations" : {
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ffbf00",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "default:defaultDatatypeElement",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#rdfssubClassOf",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#ecf0f1",
+      "link_strokeStyle" : "dashed",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:subClassOf",
+      "height" : "20",
+      "link_arrowHead_fillColor" : "#ffffff",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "width" : "100",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "ellipse",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#cccccc",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "default:defaultNodeElement",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#collapsedMultiLinkProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#c3e5fd",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "5px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "umlStyle:collapsedMultiLinkProperty",
+      "height" : "20",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "undefined",
+      "strokeElement" : "true",
+      "width" : "120",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#rdfsLiteral",
+    "annotations" : {
+      "strokeWidth" : "1px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcd00",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Literal",
+      "overWriteOffset" : "8",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#tripleObject_5",
+    "annotations" : {
+      "subjectDescription" : "view_3:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_3:element_9",
+      "predicateElement" : ":age",
+      "objectElement" : "xsd:integer",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_3:element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#tripleObject_2",
+    "annotations" : {
+      "subjectDescription" : "view_3:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_3:element_5",
+      "predicateElement" : ":knows",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_3:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#notationOptions",
+    "annotations" : {
+      "graphBgColor" : "#ECF0F1",
+      "isTypeOf" : "gizmo:NotationAnnotationObject",
+      "applyNestedElements" : "false",
+      "layoutAlgorithm" : "force"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#tripleObject_1",
+    "annotations" : {
+      "subjectDescription" : "view_3:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_3:element_3",
+      "predicateElement" : ":primary_topic",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_3:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#tripleObject_4",
+    "annotations" : {
+      "subjectDescription" : "view_3:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_3:element_8",
+      "predicateElement" : ":publication",
+      "objectElement" : ":Creative_Work",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_3:element_0"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#nestedNode",
+    "annotations" : {
+      "umlMarginBetween" : "5",
+      "umlMarginLeft" : "5",
+      "umlDrawHeaderLine" : "true",
+      "renderingType" : "umlStyle",
+      "umlPropertyAlign" : "left",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "umlHeaderAlign" : "center",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToHeader" : "10",
+      "umlOffsetToAfterLastElement" : "10",
+      "umlNestElements" : "dt_loops",
+      "umlHeightOffset" : "5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlShowDatatypeProperty" : "true",
+      "umlMarginRight" : "5",
+      "targetElement" : "exampleNotation:nestedNode"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#tripleObject_3",
+    "annotations" : {
+      "subjectDescription" : "view_3:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_3:element_6",
+      "predicateElement" : ":name",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_3:element_7"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_10",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "651.19",
+      "postion_y" : "36.97"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "circle",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "radius" : "50",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "vowl:defaultNodeElement",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#tripleObject_0",
+    "annotations" : {
+      "subjectDescription" : "view_3:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_3:element_1",
+      "predicateElement" : ":isCreatedBy",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_3:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#defaultPropertyElement",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "ellipse",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#cccccc",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "default:defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#owlObjectProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#aaccff",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:ObjectProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#ffffff",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "defaultCollapsedDatatypes" : "false",
+      "targetElement" : "umlStyle:defaultNodeElement",
+      "height" : "50",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "allowDatatypeCollapseExpand" : "true",
+      "strokeElement" : "true",
+      "defaultCollapsedLoops" : "false",
+      "width" : "100",
+      "roundedCorner" : "10,10",
+      "fontSize" : "12px",
+      "allowLoopCollapseExpand" : "true",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#tripleObject_5",
+    "annotations" : {
+      "subjectDescription" : "view_4:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_4:element_9",
+      "predicateElement" : ":age",
+      "objectElement" : "xsd:integer",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_4:element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#tripleObject_4",
+    "annotations" : {
+      "subjectDescription" : "view_4:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_4:element_8",
+      "predicateElement" : ":publication",
+      "objectElement" : ":Creative_Work",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_4:element_0"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#owlDatatypeProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#99cc66",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:DatatypeProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "true",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#tripleObject_3",
+    "annotations" : {
+      "subjectDescription" : "view_4:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_4:element_6",
+      "predicateElement" : ":name",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_4:element_7"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#tripleObject_2",
+    "annotations" : {
+      "subjectDescription" : "view_4:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_4:element_5",
+      "predicateElement" : ":knows",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_4:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#tripleObject_1",
+    "annotations" : {
+      "subjectDescription" : "view_4:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_4:element_3",
+      "predicateElement" : ":primary_topic",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_4:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#tripleObject_0",
+    "annotations" : {
+      "subjectDescription" : "view_4:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_4:element_1",
+      "predicateElement" : ":isCreatedBy",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_4:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_1",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_3",
+      "predicateElement" : ":primary_topic",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_1:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "290.0",
+      "postion_y" : "51.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_10",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "92.66",
+      "postion_y" : "229.42"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_2",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_5",
+      "predicateElement" : ":knows",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_1:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_3",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "290.41",
+      "postion_y" : "116.5"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#defaultDatatypeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "exampleNotation:defaultDatatypeElement",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_6",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "571.76",
+      "postion_y" : "265.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_0",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_1",
+      "predicateElement" : ":isCreatedBy",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_1:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_5",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "531.77",
+      "postion_y" : "107.79"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_5",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_9",
+      "predicateElement" : ":age",
+      "objectElement" : "xsd:integer",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_1:element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_8",
+    "annotations" : {
+      "visible" : "true",
+      "bgColor" : "#db022d",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "424.0",
+      "postion_y" : "144.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_7",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "588.0",
+      "postion_y" : "344.0"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#notationOptions",
+    "annotations" : {
+      "graphBgColor" : "#ECF0F1",
+      "isTypeOf" : "gizmo:NotationAnnotationObject",
+      "applyNestedElements" : "false",
+      "layoutAlgorithm" : "force"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_3",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_6",
+      "predicateElement" : ":name",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_1:element_7"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_9",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "484.26",
+      "postion_y" : "258.5"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_4",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_8",
+      "predicateElement" : ":publication",
+      "objectElement" : ":Creative_Work",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_1:element_0"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#rdfsDatatype",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Datatype",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_0",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "291.0",
+      "postion_y" : "182.0"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#defaultPropertyElement",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#007bff",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "umlStyle:defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "8",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#nestedNode",
+    "annotations" : {
+      "umlMarginBetween" : "5",
+      "umlMarginLeft" : "5",
+      "umlDrawHeaderLine" : "true",
+      "renderingType" : "umlStyle",
+      "umlPropertyAlign" : "left",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "umlHeaderAlign" : "center",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToHeader" : "13",
+      "umlOffsetToAfterLastElement" : "0",
+      "umlNestElements" : "dt_loops",
+      "umlHeightOffset" : "5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlShowDatatypeProperty" : "true",
+      "umlMarginRight" : "5",
+      "targetElement" : "umlStyle:nestedNode"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "555.0",
+      "postion_y" : "186.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_1",
+    "annotations" : {
+      "visible" : "true",
+      "bgColor" : "#21f212",
+      "renderingType" : "ellipse",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "423.7",
+      "postion_y" : "204.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#viewDefinitions",
+    "annotations" : {
+      "viewUsesNotation" : "http://example.org/ontologies/exampleNotation",
+      "graphZoomFactor" : "1.0",
+      "graphTranslation_Y" : "189.0",
+      "graphTranslation_X" : "-44.0",
+      "isTypeOf" : "gizmo:ViewAnnotationObject",
+      "forceLayoutActive" : "false"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_10",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "414.0",
+      "postion_y" : "331.0"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#defaultDatatypeElement",
+    "annotations" : {
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ff8300",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "umlStyle:defaultDatatypeElement",
+      "overWriteOffset" : "8",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#owlThing",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "circle",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffffff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "radius" : "33",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "owl:Thing",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#rdfsLiteral",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Literal",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#owlClass",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "owl:Class",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#viewDefinitions",
+    "annotations" : {
+      "viewUsesNotation" : "http://example.org/ontologies/default",
+      "graphZoomFactor" : "1.0",
+      "graphTranslation_Y" : "208.0",
+      "graphTranslation_X" : "218.0",
+      "isTypeOf" : "gizmo:ViewAnnotationObject",
+      "forceLayoutActive" : "false"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#defaultPropertyElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#aaccff",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "exampleNotation:defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "true",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#notationOptions",
+    "annotations" : {
+      "graphBgColor" : "#ECF0F1",
+      "isTypeOf" : "gizmo:NotationAnnotationObject",
+      "applyNestedElements" : "false",
+      "layoutAlgorithm" : "force"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_10",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "92.66",
+      "postion_y" : "229.42"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#element_10",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "414.0",
+      "postion_y" : "331.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_4#viewDefinitions",
+    "annotations" : {
+      "viewUsesNotation" : "http://example.org/ontologies/exampleNotation",
+      "graphZoomFactor" : "1.0",
+      "graphTranslation_Y" : "189.0",
+      "graphTranslation_X" : "-44.0",
+      "isTypeOf" : "gizmo:ViewAnnotationObject",
+      "forceLayoutActive" : "false"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#viewDefinitions",
+    "annotations" : {
+      "viewUsesNotation" : "http://example.org/ontologies/vowl",
+      "graphZoomFactor" : "1.65",
+      "graphTranslation_Y" : "-31.1",
+      "graphTranslation_X" : "75.83",
+      "isTypeOf" : "gizmo:ViewAnnotationObject",
+      "forceLayoutActive" : "false"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_0",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "219.03",
+      "postion_y" : "100.33"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_1",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "358.57",
+      "postion_y" : "99.83"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "468.37",
+      "postion_y" : "203.15"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_3",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "220.3",
+      "postion_y" : "178.8"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "221.58",
+      "postion_y" : "257.28"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_5",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "221.62",
+      "postion_y" : "155.19"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_6",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "257.5",
+      "postion_y" : "254.51"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_7",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "80.63",
+      "postion_y" : "295.95"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_8",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "336.94",
+      "postion_y" : "198.75"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_9",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "264.51",
+      "postion_y" : "217.73"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_4",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_8",
+      "predicateElement" : ":publication",
+      "objectElement" : ":Creative_Work",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_2:element_0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_9",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "147.53",
+      "postion_y" : "242.48"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_5",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_9",
+      "predicateElement" : ":age",
+      "objectElement" : "xsd:integer",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_2:element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_8",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "445.62",
+      "postion_y" : "311.67"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#notationOptions",
+    "annotations" : {
+      "graphBgColor" : "#ECF0F1",
+      "isTypeOf" : "gizmo:NotationAnnotationObject",
+      "applyNestedElements" : "true",
+      "layoutAlgorithm" : "force"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#nestedNode",
+    "annotations" : {
+      "umlMarginBetween" : "5",
+      "umlMarginLeft" : "5",
+      "umlDrawHeaderLine" : "true",
+      "renderingType" : "umlStyle",
+      "umlPropertyAlign" : "left",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "umlHeaderAlign" : "center",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToHeader" : "10",
+      "umlOffsetToAfterLastElement" : "10",
+      "umlNestElements" : "dt_loops",
+      "umlHeightOffset" : "5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlShowDatatypeProperty" : "true",
+      "umlMarginRight" : "5",
+      "targetElement" : "vowl:nestedNode"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_7",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "80.63",
+      "postion_y" : "295.95"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_6",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "140.13",
+      "postion_y" : "285.16"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_0",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_1",
+      "predicateElement" : ":isCreatedBy",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_2:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_1",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_0",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_3",
+      "predicateElement" : ":primary_topic",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : ":Creative_Work",
+      "objectDescription" : "view_2:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_2",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_5",
+      "predicateElement" : ":knows",
+      "objectElement" : ":Person",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_2:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_3",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_6",
+      "predicateElement" : ":name",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : ":Person",
+      "objectDescription" : "view_2:element_7"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_1",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "452.67",
+      "postion_y" : "208.5"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#owlDatatypeProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#99cc66",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:DatatypeProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_0",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "646.42",
+      "postion_y" : "259.38"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_5",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "221.62",
+      "postion_y" : "155.19"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "645.33",
+      "postion_y" : "105.5"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_3",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "645.82",
+      "postion_y" : "173.94"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "229.17",
+      "postion_y" : "266.29"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#rdfsDatatype",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,20",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Datatype",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_6",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "546.54",
+      "postion_y" : "109.55"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_5",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "661.77",
+      "postion_y" : "189.79"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "290.18",
+      "postion_y" : "51.47"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#owlDatatypeProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#00da32",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:DatatypeProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "8",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_3",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "290.88",
+      "postion_y" : "117.18"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "555.18",
+      "postion_y" : "186.15"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#collapsedMultiLinkProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#acf",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "5px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "vowl:collapsedMultiLinkProperty",
+      "height" : "20",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "undefined",
+      "strokeElement" : "true",
+      "width" : "120",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#collapsedMultiLinkProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#acf",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "5px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "default:collapsedMultiLinkProperty",
+      "height" : "20",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "undefined",
+      "strokeElement" : "true",
+      "width" : "120",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_1",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_0",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "291.88",
+      "postion_y" : "182.89"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_9",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "604.25",
+      "postion_y" : "109.08"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_8",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_7",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "538.99",
+      "postion_y" : "40.36"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#owlClass",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "circle",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "radius" : "50",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "owl:Class",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#viewDefinitions",
+    "annotations" : {
+      "viewUsesNotation" : "http://example.org/ontologies/umlStyle",
+      "graphZoomFactor" : "2.71",
+      "graphTranslation_Y" : "-128.4",
+      "graphTranslation_X" : "-178.58",
+      "isTypeOf" : "gizmo:ViewAnnotationObject",
+      "forceLayoutActive" : "false"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#rdfssubClassOf",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#ecf0f1",
+      "link_strokeStyle" : "dotted",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:subClassOf",
+      "link_arrowHead_fillColor" : "#ffffff",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "true",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#owlThing",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dotted",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffffff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "13,14",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "owl:Thing",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#nestedNode",
+    "annotations" : {
+      "umlMarginBetween" : "5",
+      "umlMarginLeft" : "5",
+      "umlDrawHeaderLine" : "true",
+      "renderingType" : "umlStyle",
+      "umlPropertyAlign" : "left",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "umlHeaderAlign" : "center",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToHeader" : "10",
+      "umlOffsetToAfterLastElement" : "10",
+      "umlNestElements" : "dt_loops",
+      "umlHeightOffset" : "5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlShowDatatypeProperty" : "true",
+      "umlMarginRight" : "5",
+      "targetElement" : "default:nestedNode"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "exampleNotation:defaultNodeElement",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#owlObjectProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#0c4e96",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:ObjectProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "8",
+      "fontColor" : "#ffffff",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#defaultPropertyElement",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#aaccff",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "vowl:defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#rdfsResource",
+    "annotations" : {
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ffaaee",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "rdfs:Resource",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_1",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "406.7",
+      "postion_y" : "229.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_0",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "291.0",
+      "postion_y" : "182.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_3",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "290.41",
+      "postion_y" : "116.5"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "555.0",
+      "postion_y" : "186.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_9",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "484.26",
+      "postion_y" : "258.5"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_8",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "424.0",
+      "postion_y" : "144.0"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#collapsedMultiLinkProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#acf",
+      "link_strokeStyle" : "dotted",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "exampleNotation:collapsedMultiLinkProperty",
+      "height" : "20",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "undefined",
+      "strokeElement" : "true",
+      "width" : "60",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#defaultDatatypeElement",
+    "annotations" : {
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "vowl:defaultDatatypeElement",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#rdfsLiteral",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Literal",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_5",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "531.77",
+      "postion_y" : "107.79"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "290.0",
+      "postion_y" : "51.0"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#owlObjectProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#bd88d4",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:ObjectProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "true",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_7",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "588.0",
+      "postion_y" : "344.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_3#element_6",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "571.76",
+      "postion_y" : "265.0"
+    }
+  } ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://example.org/ontologies/exampleOntology#Creative_Work",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Creative_Work",
+      "en" : "Creative Work"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#Person",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person",
+      "en" : "Person"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://example.org/ontologies/exampleOntology#isCreatedBy",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isCreatedBy",
+      "en" : "isCreatedBy"
+    },
+    "domain" : "0",
+    "attributes" : [ "external", "object" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#primary_topic",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "primary_topic",
+      "en" : "primary topic"
+    },
+    "domain" : "0",
+    "attributes" : [ "external", "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#knows",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "knows",
+      "en" : "knows"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#name",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "name"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#publication",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "publication",
+      "en" : "publication"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#age",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "age",
+      "en" : "age"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "9"
+  } ]
+}

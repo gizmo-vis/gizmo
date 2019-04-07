@@ -1,0 +1,3592 @@
+{
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://purl.org/muto/core", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://rdfs.org/sioc/ns", "http://www.w3.org/2004/02/skos/core" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "gizmo" : "http://example.org/ontologies/gizmo-core#",
+      "core_container_0" : "http://example.org/core_container_0#",
+      "dcterms" : "http://purl.org/dc/terms/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+      "view_2" : "http://example.org/view_2#",
+      "view_1" : "http://example.org/view_1#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "sioc" : "http://rdfs.org/sioc/ns#",
+      "view_0" : "http://example.org/view_0#",
+      "skos" : "http://www.w3.org/2004/02/skos/core#",
+      "umlStyle" : "http://example.org/ontologies/umlStyle#",
+      "dc" : "http://purl.org/dc/elements/1.1/",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "foaf" : "http://xmlns.com/foaf/0.1/",
+      "exampleNotation" : "http://example.org/ontologies/exampleNotation#",
+      "vowl" : "http://example.org/ontologies/vowl#",
+      "default" : "http://example.org/ontologies/default#"
+    },
+    "iri" : "http://example.org/core_container_0"
+  },
+  "namespace" : [ ],
+  "gizmoAnnotations" : [ {
+    "iri" : "http://example.org/ontologies/vowl#rdfssubClassOf",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#ecf0f1",
+      "link_strokeStyle" : "dashed",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:subClassOf",
+      "height" : "20",
+      "link_arrowHead_fillColor" : "#ffffff",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "width" : "100",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#collapsedMultiLinkProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#c3e5fd",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "5px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "umlStyle:collapsedMultiLinkProperty",
+      "height" : "20",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "undefined",
+      "strokeElement" : "true",
+      "width" : "120",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#notationOptions",
+    "annotations" : {
+      "graphBgColor" : "#ECF0F1",
+      "isTypeOf" : "gizmo:NotationAnnotationObject",
+      "applyNestedElements" : "false",
+      "layoutAlgorithm" : "force"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#nestedNode",
+    "annotations" : {
+      "umlMarginBetween" : "5",
+      "umlMarginLeft" : "5",
+      "umlDrawHeaderLine" : "true",
+      "renderingType" : "umlStyle",
+      "umlPropertyAlign" : "left",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "umlHeaderAlign" : "center",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToHeader" : "10",
+      "umlOffsetToAfterLastElement" : "10",
+      "umlNestElements" : "dt_loops",
+      "umlHeightOffset" : "5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlShowDatatypeProperty" : "true",
+      "umlMarginRight" : "5",
+      "targetElement" : "exampleNotation:nestedNode"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#defaultPropertyElement",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "ellipse",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#cccccc",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "default:defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#owlObjectProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#aaccff",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:ObjectProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#owlDatatypeProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#99cc66",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:DatatypeProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "true",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_18",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "969.92",
+      "postion_y" : "240.17"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_19",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1129.72",
+      "postion_y" : "224.86"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_14",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1300.86",
+      "postion_y" : "388.91"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_15",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "415.4",
+      "postion_y" : "588.09"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_16",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "681.38",
+      "postion_y" : "348.62"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_17",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "746.65",
+      "postion_y" : "316.91"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_10",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1270.36",
+      "postion_y" : "201.5"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_11",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "445.68",
+      "postion_y" : "475.3"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_12",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "303.47",
+      "postion_y" : "453.75"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_13",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "455.55",
+      "postion_y" : "414.12"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#notationOptions",
+    "annotations" : {
+      "graphBgColor" : "#ECF0F1",
+      "isTypeOf" : "gizmo:NotationAnnotationObject",
+      "applyNestedElements" : "false",
+      "layoutAlgorithm" : "force"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#nestedNode",
+    "annotations" : {
+      "umlMarginBetween" : "5",
+      "umlMarginLeft" : "5",
+      "umlDrawHeaderLine" : "true",
+      "renderingType" : "umlStyle",
+      "umlPropertyAlign" : "left",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "umlHeaderAlign" : "center",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToHeader" : "13",
+      "umlOffsetToAfterLastElement" : "0",
+      "umlNestElements" : "dt_loops",
+      "umlHeightOffset" : "5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlShowDatatypeProperty" : "true",
+      "umlMarginRight" : "5",
+      "targetElement" : "umlStyle:nestedNode"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_29",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "869.55",
+      "postion_y" : "362.38"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#defaultDatatypeElement",
+    "annotations" : {
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ff8300",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "umlStyle:defaultDatatypeElement",
+      "overWriteOffset" : "8",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_25",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "839.35",
+      "postion_y" : "570.16"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_26",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1210.56",
+      "postion_y" : "366.11"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_27",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "795.57",
+      "postion_y" : "427.23"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_28",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "793.7",
+      "postion_y" : "488.41"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_21",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "664.83",
+      "postion_y" : "611.46"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_22",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "869.08",
+      "postion_y" : "298.9"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_23",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1096.62",
+      "postion_y" : "322.26"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#owlThing",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "circle",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffffff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "radius" : "33",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "owl:Thing",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_24",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1128.74",
+      "postion_y" : "559.59"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_20",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1009.03",
+      "postion_y" : "559.6"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#owlClass",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "owl:Class",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_11",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_29",
+      "predicateElement" : "http://purl.org/muto/core#previousTag",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_0:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#defaultPropertyElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#aaccff",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "exampleNotation:defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "true",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_12",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_31",
+      "predicateElement" : "http://purl.org/muto/core#tagLabel",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_0:element_25"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_10",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_17",
+      "predicateElement" : "http://purl.org/muto/core#grantAccess",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_0:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_15",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_34",
+      "predicateElement" : "http://purl.org/muto/core#taggingModified",
+      "objectElement" : "xsd:dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_0:element_15"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_16",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_33",
+      "predicateElement" : "http://purl.org/muto/core#autoMeaning",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_0:element_18"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_13",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_14",
+      "predicateElement" : "sioc:creator_of",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_0:element_9"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_14",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_23",
+      "predicateElement" : "http://purl.org/muto/core#tagMeaning",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_0:element_18"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_19",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_35",
+      "predicateElement" : "http://purl.org/muto/core#taggingCreated",
+      "objectElement" : "xsd:dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_0:element_7"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_17",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_3",
+      "predicateElement" : "sioc:about",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_0:element_9"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_18",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_30",
+      "predicateElement" : "http://purl.org/muto/core#nextTag",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_0:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_0",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "808.83",
+      "postion_y" : "357.27"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_1",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "620.81",
+      "postion_y" : "453.56"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "704.49",
+      "postion_y" : "229.68"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_3",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1388.56",
+      "postion_y" : "325.55"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "966.59",
+      "postion_y" : "457.37"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_5",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "881.37",
+      "postion_y" : "623.73"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_6",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1040.72",
+      "postion_y" : "622.83"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_7",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "653.37",
+      "postion_y" : "629.06"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_8",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1231.67",
+      "postion_y" : "295.7"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_9",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1179.02",
+      "postion_y" : "456.4"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_4",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_6",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_20",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#AutoTag",
+      "objectDescription" : "view_2:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_5",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_18",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_22",
+      "predicateElement" : "http://purl.org/muto/core#meaningOf",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_2:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#nestedNode",
+    "annotations" : {
+      "umlMarginBetween" : "5",
+      "umlMarginLeft" : "5",
+      "umlDrawHeaderLine" : "true",
+      "renderingType" : "umlStyle",
+      "umlPropertyAlign" : "left",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "umlHeaderAlign" : "center",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToHeader" : "10",
+      "umlOffsetToAfterLastElement" : "10",
+      "umlNestElements" : "dt_loops",
+      "umlHeightOffset" : "5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlShowDatatypeProperty" : "true",
+      "umlMarginRight" : "5",
+      "targetElement" : "vowl:nestedNode"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_6",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_26",
+      "predicateElement" : "sioc:has_creator",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_2:element_9"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_7",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_27",
+      "predicateElement" : "http://purl.org/muto/core#tagOf",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_2:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_22",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_38",
+      "predicateElement" : "http://purl.org/muto/core#taggedWith",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_0:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_0",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_0",
+      "predicateElement" : "http://purl.org/muto/core#taggedResource",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_2:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_23",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_39",
+      "predicateElement" : "http://purl.org/muto/core#tagCreated",
+      "objectElement" : "xsd:dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_0:element_24"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_1",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_8",
+      "predicateElement" : "dcterms:modified",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_2:element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_2",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_12",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_11",
+      "predicateElement" : "http://purl.org/muto/core#creatorOf",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "sioc:UserAccount",
+      "objectDescription" : "view_2:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_20",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_36",
+      "predicateElement" : "dcterms:created",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_0:element_19"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_3",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_16",
+      "predicateElement" : "http://purl.org/muto/core#hasAccess",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_2:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_21",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_37",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "skos:Concept",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_0:element_5"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#owlDatatypeProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#99cc66",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:DatatypeProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_24",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_21",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_40",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#PrivateTagging",
+      "objectDescription" : "view_0:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_25",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_41",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "sioc:Item",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_0:element_32"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#rdfsDatatype",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,20",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Datatype",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#owlClass",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "circle",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "radius" : "50",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "owl:Class",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#viewDefinitions",
+    "annotations" : {
+      "viewUsesNotation" : "http://example.org/ontologies/umlStyle",
+      "graphZoomFactor" : "1.0",
+      "graphTranslation_Y" : "-93.91",
+      "graphTranslation_X" : "-81.49",
+      "isTypeOf" : "gizmo:ViewAnnotationObject",
+      "forceLayoutActive" : "false"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#rdfssubClassOf",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#ecf0f1",
+      "link_strokeStyle" : "dotted",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:subClassOf",
+      "link_arrowHead_fillColor" : "#ffffff",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "true",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_8",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_13",
+      "predicateElement" : "http://purl.org/muto/core#hasCreator",
+      "objectElement" : "sioc:UserAccount",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_2:element_12"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_9",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_28",
+      "predicateElement" : "http://purl.org/muto/core#hasTag",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_2:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#nestedNode",
+    "annotations" : {
+      "umlMarginBetween" : "5",
+      "umlMarginLeft" : "5",
+      "umlDrawHeaderLine" : "true",
+      "renderingType" : "umlStyle",
+      "umlPropertyAlign" : "left",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "umlHeaderAlign" : "center",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToHeader" : "10",
+      "umlOffsetToAfterLastElement" : "10",
+      "umlNestElements" : "dt_loops",
+      "umlHeightOffset" : "5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlShowDatatypeProperty" : "true",
+      "umlMarginRight" : "5",
+      "targetElement" : "default:nestedNode"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#owlObjectProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#0c4e96",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:ObjectProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "8",
+      "fontColor" : "#ffffff",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#collapsedMultiLinkProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#acf",
+      "link_strokeStyle" : "dotted",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "exampleNotation:collapsedMultiLinkProperty",
+      "height" : "20",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "undefined",
+      "strokeElement" : "true",
+      "width" : "60",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#defaultDatatypeElement",
+    "annotations" : {
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "vowl:defaultDatatypeElement",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#rdfsLiteral",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Literal",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#owlObjectProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#bd88d4",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:ObjectProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "true",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_0",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_0",
+      "predicateElement" : "http://purl.org/muto/core#taggedResource",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_0:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_1",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_8",
+      "predicateElement" : "dcterms:modified",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_0:element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_23",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_39",
+      "predicateElement" : "http://purl.org/muto/core#tagCreated",
+      "objectElement" : "xsd:dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_1:element_24"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_2",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_12",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_11",
+      "predicateElement" : "http://purl.org/muto/core#creatorOf",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "sioc:UserAccount",
+      "objectDescription" : "view_0:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_24",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_21",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_40",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#PrivateTagging",
+      "objectDescription" : "view_1:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_3",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_16",
+      "predicateElement" : "http://purl.org/muto/core#hasAccess",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_0:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_4",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_6",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_20",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#AutoTag",
+      "objectDescription" : "view_0:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_25",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_41",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "sioc:Item",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_1:element_32"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_5",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_18",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_22",
+      "predicateElement" : "http://purl.org/muto/core#meaningOf",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_0:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_24",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1136.97",
+      "postion_y" : "559.59"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_20",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_36",
+      "predicateElement" : "dcterms:created",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_1:element_19"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_23",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_21",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_37",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "skos:Concept",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_1:element_5"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_26",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1381.87",
+      "postion_y" : "163.5"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_22",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_38",
+      "predicateElement" : "http://purl.org/muto/core#taggedWith",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_1:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_25",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "839.35",
+      "postion_y" : "570.16"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_28",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_27",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#defaultDatatypeElement",
+    "annotations" : {
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ffbf00",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "default:defaultDatatypeElement",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_29",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "869.55",
+      "postion_y" : "362.38"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_20",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "978.95",
+      "postion_y" : "545.04"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_22",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_21",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "358.45",
+      "postion_y" : "306.73"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "ellipse",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#cccccc",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "default:defaultNodeElement",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#rdfsLiteral",
+    "annotations" : {
+      "strokeWidth" : "1px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcd00",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Literal",
+      "overWriteOffset" : "8",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_41",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "503.64",
+      "postion_y" : "452.38"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_16",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_33",
+      "predicateElement" : "http://purl.org/muto/core#autoMeaning",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_1:element_18"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_17",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_3",
+      "predicateElement" : "sioc:about",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_1:element_9"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_40",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "522.94",
+      "postion_y" : "404.03"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_18",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_30",
+      "predicateElement" : "http://purl.org/muto/core#nextTag",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_1:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_19",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_35",
+      "predicateElement" : "http://purl.org/muto/core#taggingCreated",
+      "objectElement" : "xsd:dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_1:element_7"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_12",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_31",
+      "predicateElement" : "http://purl.org/muto/core#tagLabel",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_1:element_25"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_13",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_14",
+      "predicateElement" : "sioc:creator_of",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_1:element_9"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_14",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_23",
+      "predicateElement" : "http://purl.org/muto/core#tagMeaning",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_1:element_18"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_15",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_34",
+      "predicateElement" : "http://purl.org/muto/core#taggingModified",
+      "objectElement" : "xsd:dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_1:element_15"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_13",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_12",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "484.66",
+      "postion_y" : "150.67"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_15",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "515.88",
+      "postion_y" : "622.68"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_10",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_17",
+      "predicateElement" : "http://purl.org/muto/core#grantAccess",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_1:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_11",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_29",
+      "predicateElement" : "http://purl.org/muto/core#previousTag",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_1:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_14",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1197.08",
+      "postion_y" : "204.42"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_17",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_16",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_19",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1086.89",
+      "postion_y" : "99.67"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_18",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "976.51",
+      "postion_y" : "149.58"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_11",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_10",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1224.24",
+      "postion_y" : "-14.28"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "circle",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "radius" : "50",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "vowl:defaultNodeElement",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_30",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1074.2",
+      "postion_y" : "320.76"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#ffffff",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "defaultCollapsedDatatypes" : "false",
+      "targetElement" : "umlStyle:defaultNodeElement",
+      "height" : "50",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "allowDatatypeCollapseExpand" : "true",
+      "strokeElement" : "true",
+      "defaultCollapsedLoops" : "false",
+      "width" : "100",
+      "roundedCorner" : "10,10",
+      "fontSize" : "12px",
+      "allowLoopCollapseExpand" : "true",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_34",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "519.85",
+      "postion_y" : "520.83"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_33",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_32",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "396.96",
+      "postion_y" : "451.21"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_31",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "906.47",
+      "postion_y" : "513.77"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_1",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_8",
+      "predicateElement" : "dcterms:modified",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_1:element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_2",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_12",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_11",
+      "predicateElement" : "http://purl.org/muto/core#creatorOf",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "sioc:UserAccount",
+      "objectDescription" : "view_1:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#defaultDatatypeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "exampleNotation:defaultDatatypeElement",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_40",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "489.63",
+      "postion_y" : "380.14"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_0",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_0",
+      "predicateElement" : "http://purl.org/muto/core#taggedResource",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_1:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_5",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_18",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_22",
+      "predicateElement" : "http://purl.org/muto/core#meaningOf",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_1:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_6",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_26",
+      "predicateElement" : "sioc:has_creator",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_1:element_9"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_41",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "475.12",
+      "postion_y" : "487.8"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_3",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_16",
+      "predicateElement" : "http://purl.org/muto/core#hasAccess",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_1:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_4",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_6",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_20",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#AutoTag",
+      "objectDescription" : "view_1:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_38",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "611.59",
+      "postion_y" : "171.28"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_37",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1110.2",
+      "postion_y" : "455.72"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_36",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1208.65",
+      "postion_y" : "278.86"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#rdfsDatatype",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Datatype",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_35",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "636.76",
+      "postion_y" : "541.31"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#defaultPropertyElement",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#007bff",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "umlStyle:defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "8",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_39",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1039.92",
+      "postion_y" : "508.48"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_23",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_22",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_21",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "404.58",
+      "postion_y" : "354.5"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_20",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "965.19",
+      "postion_y" : "555.75"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_9",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_28",
+      "predicateElement" : "http://purl.org/muto/core#hasTag",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_1:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_35",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "661.84",
+      "postion_y" : "546.29"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_34",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "563.85",
+      "postion_y" : "555.11"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_37",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1134.0",
+      "postion_y" : "421.95"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_7",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_27",
+      "predicateElement" : "http://purl.org/muto/core#tagOf",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_1:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#tripleObject_8",
+    "annotations" : {
+      "subjectDescription" : "view_1:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_1:element_13",
+      "predicateElement" : "http://purl.org/muto/core#hasCreator",
+      "objectElement" : "sioc:UserAccount",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_1:element_12"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_36",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1167.75",
+      "postion_y" : "115.73"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_39",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1061.85",
+      "postion_y" : "504.53"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_38",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_31",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "899.96",
+      "postion_y" : "511.25"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_30",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1074.2",
+      "postion_y" : "320.76"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#rdfsLiteral",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:Literal",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_33",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_32",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "329.43",
+      "postion_y" : "522.04"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_27",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "795.57",
+      "postion_y" : "427.23"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_26",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1210.56",
+      "postion_y" : "366.11"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#viewDefinitions",
+    "annotations" : {
+      "viewUsesNotation" : "http://example.org/ontologies/vowl",
+      "graphZoomFactor" : "0.61",
+      "graphTranslation_Y" : "199.77",
+      "graphTranslation_X" : "214.27",
+      "isTypeOf" : "gizmo:ViewAnnotationObject",
+      "forceLayoutActive" : "false"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_25",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "839.35",
+      "postion_y" : "570.16"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_24",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1128.74",
+      "postion_y" : "559.59"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_29",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "869.55",
+      "postion_y" : "362.38"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_28",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "793.7",
+      "postion_y" : "488.41"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_12",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "517.6",
+      "postion_y" : "242.91"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_11",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_10",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1270.36",
+      "postion_y" : "201.5"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#notationOptions",
+    "annotations" : {
+      "graphBgColor" : "#ECF0F1",
+      "isTypeOf" : "gizmo:NotationAnnotationObject",
+      "applyNestedElements" : "false",
+      "layoutAlgorithm" : "force"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_36",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1150.22",
+      "postion_y" : "307.38"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_37",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "917.83",
+      "postion_y" : "560.05"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_38",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "632.38",
+      "postion_y" : "290.14"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#viewDefinitions",
+    "annotations" : {
+      "viewUsesNotation" : "http://example.org/ontologies/exampleNotation",
+      "graphZoomFactor" : "0.61",
+      "graphTranslation_Y" : "176.77",
+      "graphTranslation_X" : "229.27",
+      "isTypeOf" : "gizmo:ViewAnnotationObject",
+      "forceLayoutActive" : "false"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_39",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1069.92",
+      "postion_y" : "525.5"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_32",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "518.86",
+      "postion_y" : "612.63"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_33",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "970.02",
+      "postion_y" : "327.51"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_34",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "480.85",
+      "postion_y" : "530.32"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_35",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "644.0",
+      "postion_y" : "555.81"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_30",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1074.2",
+      "postion_y" : "320.76"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_31",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "876.47",
+      "postion_y" : "537.7"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_16",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "698.88",
+      "postion_y" : "286.29"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_15",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "415.4",
+      "postion_y" : "588.09"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_14",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1300.86",
+      "postion_y" : "388.91"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_13",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_19",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1129.72",
+      "postion_y" : "224.86"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_18",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "976.51",
+      "postion_y" : "149.58"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_17",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "653.59",
+      "postion_y" : "218.9"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_9",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1286.08",
+      "postion_y" : "332.87"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_8",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1278.31",
+      "postion_y" : "267.18"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#notationOptions",
+    "annotations" : {
+      "graphBgColor" : "#ECF0F1",
+      "isTypeOf" : "gizmo:NotationAnnotationObject",
+      "applyNestedElements" : "true",
+      "layoutAlgorithm" : "force"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_7",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "653.37",
+      "postion_y" : "629.06"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_6",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "963.3",
+      "postion_y" : "654.13"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_1",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "620.81",
+      "postion_y" : "453.56"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_0",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "726.05",
+      "postion_y" : "335.56"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_5",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1266.81",
+      "postion_y" : "454.07"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "966.59",
+      "postion_y" : "457.37"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_3",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1388.56",
+      "postion_y" : "325.55"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "739.08",
+      "postion_y" : "106.14"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_40",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "650.35",
+      "postion_y" : "539.51"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#element_41",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "552.53",
+      "postion_y" : "540.09"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_6",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "981.42",
+      "postion_y" : "665.66"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_5",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1291.52",
+      "postion_y" : "419.48"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "976.48",
+      "postion_y" : "424.43"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#owlDatatypeProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#00da32",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "owl:DatatypeProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "8",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_3",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1344.09",
+      "postion_y" : "55.41"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "739.08",
+      "postion_y" : "106.14"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_19",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_35",
+      "predicateElement" : "http://purl.org/muto/core#taggingCreated",
+      "objectElement" : "xsd:dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_2:element_7"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#collapsedMultiLinkProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#acf",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "5px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "vowl:collapsedMultiLinkProperty",
+      "height" : "20",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "undefined",
+      "strokeElement" : "true",
+      "width" : "120",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/default#collapsedMultiLinkProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#acf",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "5px",
+      "link_strokeColor" : "#000000",
+      "strokeColor" : "#000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "default:collapsedMultiLinkProperty",
+      "height" : "20",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "undefined",
+      "strokeElement" : "true",
+      "width" : "120",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_1",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "620.81",
+      "postion_y" : "453.56"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_0",
+    "annotations" : {
+      "visible" : "false",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_9",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1261.38",
+      "postion_y" : "136.85"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_8",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "1241.26",
+      "postion_y" : "49.51"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_7",
+    "annotations" : {
+      "visible" : "true",
+      "isTypeOf" : "gizmo:VisualizationAnnotationObject",
+      "postion_x" : "694.55",
+      "postion_y" : "602.71"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_21",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_37",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "skos:Concept",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_2:element_5"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_20",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_36",
+      "predicateElement" : "dcterms:created",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_2:element_19"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_23",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_39",
+      "predicateElement" : "http://purl.org/muto/core#tagCreated",
+      "objectElement" : "xsd:dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_2:element_24"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_22",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_2",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_38",
+      "predicateElement" : "http://purl.org/muto/core#taggedWith",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_2:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_25",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_41",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "sioc:Item",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_2:element_32"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_24",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_21",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_40",
+      "predicateElement" : "rdfs:subClassOf",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#PrivateTagging",
+      "objectDescription" : "view_2:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#owlThing",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dotted",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffffff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "13,14",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "owl:Thing",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "exampleNotation:defaultNodeElement",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/umlStyle#rdfssubClassOf",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#ecf0f1",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "rdfs:subClassOf",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "8",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/vowl#defaultPropertyElement",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "bgColor" : "#aaccff",
+      "link_strokeStyle" : "solid",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeWidth" : "2px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "vowl:defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleNotation#rdfsResource",
+    "annotations" : {
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "rect",
+      "isTypeOf" : "gizmo:GlyphAnnotationObject",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ffaaee",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "15,15",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "targetElement" : "rdfs:Resource",
+      "overWriteOffset" : "20",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_10",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_17",
+      "predicateElement" : "http://purl.org/muto/core#grantAccess",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_2:element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_6",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_26",
+      "predicateElement" : "sioc:has_creator",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_0:element_9"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_16",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_33",
+      "predicateElement" : "http://purl.org/muto/core#autoMeaning",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_2:element_18"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_15",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_34",
+      "predicateElement" : "http://purl.org/muto/core#taggingModified",
+      "objectElement" : "xsd:dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_2:element_15"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_7",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_27",
+      "predicateElement" : "http://purl.org/muto/core#tagOf",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_0:element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_18",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_30",
+      "predicateElement" : "http://purl.org/muto/core#nextTag",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_2:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_8",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_13",
+      "predicateElement" : "http://purl.org/muto/core#hasCreator",
+      "objectElement" : "sioc:UserAccount",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_0:element_12"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#tripleObject_9",
+    "annotations" : {
+      "subjectDescription" : "view_0:element_1",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_0:element_28",
+      "predicateElement" : "http://purl.org/muto/core#hasTag",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "view_0:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_17",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_3",
+      "predicateElement" : "sioc:about",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_2:element_9"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_12",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_31",
+      "predicateElement" : "http://purl.org/muto/core#tagLabel",
+      "objectElement" : "rdfs:Literal",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_2:element_25"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_11",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_29",
+      "predicateElement" : "http://purl.org/muto/core#previousTag",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_2:element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_14",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_4",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_23",
+      "predicateElement" : "http://purl.org/muto/core#tagMeaning",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "view_2:element_18"
+    }
+  }, {
+    "iri" : "http://example.org/view_2#tripleObject_13",
+    "annotations" : {
+      "subjectDescription" : "view_2:element_9",
+      "isTypeOf" : "gizmo:TripleAnnotationObject",
+      "predicateDescription" : "view_2:element_14",
+      "predicateElement" : "sioc:creator_of",
+      "objectElement" : "owl:Thing",
+      "subjectElement" : "owl:Thing",
+      "objectDescription" : "view_2:element_9"
+    }
+  } ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "6",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "9",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept",
+      "en" : "Concept"
+    },
+    "subClasses" : [ "4" ],
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://purl.org/muto/core#PrivateTagging",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrivateTagging",
+      "en" : "Private Tagging"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://purl.org/muto/core#AutoTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AutoTag",
+      "en" : "Automatic Tag"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#UserAccount",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UserAccount",
+      "en" : "UserAccount"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://purl.org/muto/core#Tagging",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tagging",
+      "en" : "Tagging"
+    },
+    "subClasses" : [ "10" ],
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://purl.org/muto/core#Tag",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tag",
+      "en" : "Tag"
+    },
+    "subClasses" : [ "16" ],
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "2",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "6",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "9",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#Item",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Item",
+      "en" : "Item"
+    },
+    "subClasses" : [ "1" ],
+    "attributes" : [ "external" ],
+    "id" : "22"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://purl.org/muto/core#taggedResource",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "taggedResource",
+      "en" : "tagged resource"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://purl.org/dc/terms/modified",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "modified",
+      "en" : "modified"
+    },
+    "domain" : "6",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://purl.org/muto/core#meaningOf",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "meaningOf",
+      "en" : "meaning of"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://purl.org/muto/core#hasCreator",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasCreator",
+      "en" : "has creator"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://purl.org/muto/core#hasTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasTag",
+      "en" : "has tag"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://purl.org/muto/core#grantAccess",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "grantAccess",
+      "en" : "grant access"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#creator_of",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "creator_of",
+      "en" : "creator_of"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagMeaning",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "tagMeaning",
+      "en" : "tag meaning"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#about",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "about",
+      "en" : "about"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://purl.org/dc/terms/created",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "created",
+      "en" : "created"
+    },
+    "domain" : "6",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "19"
+  }, {
+    "range" : "3",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "22",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://purl.org/muto/core#creatorOf",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "creatorOf",
+      "en" : "creator of"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://purl.org/muto/core#hasAccess",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasAccess",
+      "en" : "has access"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "4",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#has_creator",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "has_creator",
+      "en" : "has_creator"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagOf",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "tagOf",
+      "en" : "tag of"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://purl.org/muto/core#previousTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "previousTag",
+      "en" : "previous tag"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagLabel",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "tagLabel",
+      "en" : "tag label"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://purl.org/muto/core#taggingModified",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "taggingModified",
+      "en" : "tagging modified"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://purl.org/muto/core#autoMeaning",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "autoMeaning",
+      "en" : "automatic tag meaning"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://purl.org/muto/core#nextTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "nextTag",
+      "en" : "next tag"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://purl.org/muto/core#taggingCreated",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "taggingCreated",
+      "en" : "tagging created"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://purl.org/muto/core#taggedWith",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "taggedWith",
+      "en" : "tagged with"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagCreated",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "tagCreated",
+      "en" : "tag created"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "41"
+  } ]
+}

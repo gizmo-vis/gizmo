@@ -1,0 +1,243 @@
+{
+  "defaultNodeElement" : {
+    "renderingType" :"rect",
+    "width"         :100,
+    "height"        :50,
+    "roundedCorner" :[10,10],
+    "bgColor"       :"#cccccc",
+    "strokeElement"  :"false",
+    "strokeWidth"   :"2px",
+    "strokeStyle"   :"solid",
+    "strokeColor"   :"#ffffff",
+    "radius"        :50,
+    "renderingLayer"  :"nodes",
+
+    "hoverInCursor":"pointer",
+    "hoverInColor":"#ff0000",
+    "hoverInStrokeColor":"#ff0000",
+    "hoverInFontColor":"#000000",
+    "hoverInFontSize":"12px",
+    "hoverInFontFamily":"Helvetica,Arial,sans-serif",
+
+    "fontFamily": "Helvetica,Arial,sans-serif",
+    "fontColor" : "#000000",
+    "fontSize": "12px",
+    "fontSizeOverWritesShapeSize": "false"
+    ,"overWriteOffset": 5
+    ,"defaultCollapsedDatatypes": "false"
+    ,"allowDatatypeCollapseExpand": "true"
+    ,"defaultCollapsedLoops": "false"
+    ,"allowLoopCollapseExpand": "true"
+
+
+
+
+
+
+  },
+  "defaultDatatypeElement": {
+    "renderingType": "rect",
+    "width": 120,
+    "height": 20,
+    "roundedCorner" :[0,0],
+    "bgColor": "#ccffee",
+    "strokeElement": "true",
+    "strokeWidth": "2px",
+    "strokeStyle": "solid",
+    "strokeColor": "#0f0",
+    "radius": 25,
+    "renderingLayer": "nodes",
+
+    "hoverInCursor":"pointer",
+    "hoverInColor":"#ff0000",
+    "hoverInStrokeColor":"#ff0000",
+    "hoverInFontColor":"#000000",
+    "hoverInFontSize":"12px",
+    "hoverInFontFamily":"Helvetica,Arial,sans-serif",
+
+    "fontSizeOverWritesShapeSize": "true",
+    "fontFamily": "Helvetica,Arial,sans-serif",
+    "fontColor" : "#000000",
+    "fontSize": "12px"
+  ,"overWriteOffset": 5
+
+
+  },
+  "defaultPropertyElement":{
+    "renderingType" :"rect",
+    "width"         :120,
+    "height"        :20,
+    "roundedCorner" :[0,0],
+    "bgColor"       :"#00ffff",
+    "strokeElement"  :"true",
+    "strokeWidth"   :"2px",
+    "strokeStyle"   :"solid",
+    "strokeColor"   :"#00ff00",
+    "radius"        :25,
+    "renderingLayer"  :"nodes",
+
+    "hoverInCursor":"pointer",
+    "hoverInColor":"#ff0000",
+    "hoverInStrokeColor":"#ff0000",
+    "hoverInFontColor":"#000000",
+    "hoverInFontSize":"12px",
+    "hoverInFontFamily":"Helvetica,Arial,sans-serif",
+
+    "fontSizeOverWritesShapeSize": "true",
+    "fontFamily": "Helvetica,Arial,sans-serif",
+    "fontColor" : "#000000",
+    "fontSize": "12px",
+
+
+    "link_renderingType":"line",
+    "link_strokeWidth"   :"2px",
+    "link_strokeStyle"   :"solid",
+    "link_strokeColor"   :"#000000",
+    "link_hoverColor"    :"#ff0000"
+
+    ,"link_arrowHead" : "true"
+    ,"link_arrowHead_scaleFactor"   : 1
+    ,"link_arrowHead_renderingType" :"triangle"
+    ,"link_arrowHead_strokeWidth"   :"2px"
+    ,"link_arrowHead_strokeStyle"   :"solid"
+    ,"link_arrowHead_strokeColor"   :"#000000"
+    ,"link_arrowHead_fillColor"     :"#000000"
+
+
+  ,"overWriteOffset": 5
+
+  },
+  "collapsedMultiLinkProperty":{
+    "renderingType" :"rect",
+    "width"         :120,
+    "height"        :20,
+    "roundedCorner" :[0,0],
+    "bgColor"       :"#acf",
+    "strokeElement"  :"true",
+    "strokeWidth"   :"2px",
+    "strokeStyle"   :"solid",
+    "strokeColor"   :"#000",
+    "radius"        :25,
+    "renderingLayer"  :"nodes",
+
+
+    "hoverInCursor":"pointer",
+    "hoverInColor":"#ff0000",
+    "hoverInStrokeColor":"#ff0000",
+
+    "hoverInFontColor":"#000000",
+    "hoverInFontSize":"12px",
+    "hoverInFontFamily":"Helvetica,Arial,sans-serif",
+
+    "fontSizeOverWritesShapeSize": "false",
+    "fontFamily": "Helvetica,Arial,sans-serif",
+    "fontSize": "12px",
+    "fontColor" : "#000000",
+
+
+
+    "link_renderingType":"line",
+    "link_strokeWidth"   :"5px",
+    "link_strokeStyle"   :"solid",
+    "link_strokeColor"   :"#000000"
+  ,"link_arrowHead" : "false"
+  ,"link_arrowHead_scaleFactor"   : 1
+  ,"link_arrowHead_renderingType" :"triangle"
+  ,"link_arrowHead_strokeWidth"   :"2px"
+  ,"link_arrowHead_strokeStyle"   :"solid"
+  ,"link_arrowHead_strokeColor"   :"#000000"
+  ,"link_arrowHead_fillColor"     :"#000000"
+  ,"overWriteOffset": 5
+
+
+  },
+
+  "collapsedDatatypes":{
+    "renderingType" :"none",
+    "inshapeType":"indicator",
+    "inshapeIndicatorOffset": 0,
+    "inshapeStrokeType":"solid",
+    "inshapeStrokeColor":"#ff0000",
+    "inshapeStrokeStrokeWidth":2,
+    "segmentType":"full",
+    "segmentStartAngle": 0,
+    "segmentHeight": 10,
+    "segmentOffset": 0,
+    "showLabelInSegment": "false",
+    "segmentLabelSize": 10,
+    "segmentAdjustmentMargin": 10,
+    "umlShapeAdjustsShapeSize": "header",
+    "umlElementScaleFactor" :1.0,
+    "umlHeightOffset" : 10,
+    "umlOffsetToHeader" : 10,
+    "umlOffsetToAfterLastElement" : 10
+    ,"umlMarginLeft" : 10
+    ,"umlMarginRight" : 10
+    ,"umlShowDatatypeProperty" : "true"
+    ,"umlMarginBetween" : 5
+
+
+  },
+
+  "collapsedLoops":{
+    "renderingType" :"none",
+    "inshapeType":"indicator",
+    "inshapeIndicatorOffset": 0,
+    "inshapeStrokeType":"solid",
+    "inshapeStrokeColor":"#ffff00",
+    "inshapeStrokeStrokeWidth":2,
+    "segmentType":"full",
+    "segmentStartAngle": 0,
+    "segmentHeight": 10,
+    "segmentOffset": 0,
+    "showLabelInSegment": "false",
+    "segmentLabelSize": 10,
+    "segmentAdjustmentMargin": 10,
+    "umlShapeAdjustsShapeSize": "header",
+    "umlElementScaleFactor" :1.0,
+    "umlHeightOffset" : 10,
+    "umlOffsetToHeader" : 10,
+    "umlOffsetToAfterLastElement" : 10
+  ,"umlMarginLeft" : 10
+  ,"umlMarginRight" : 10
+  ,"umlShowDatatypeProperty" : "true"
+  ,"umlDrawHeaderLine" : "true"
+  ,"umlHeaderAlign" : "left"
+  ,"umlPropertyAlign" : "left"
+  ,"umlMarginBetween" : 5
+
+
+  },
+  
+    "nestedNode":{
+    "renderingType" :"umlStyle",
+      "inshapeType":"indicator",
+      "inshapeIndicatorOffset": 0,
+      "inshapeStrokeType":"solid",
+      "inshapeStrokeColor":"#ff0000",
+      "inshapeStrokeStrokeWidth":2,
+      "segmentType":"full",
+      "segmentStartAngle": 0,
+      "segmentHeight": 10,
+      "segmentOffset": 0,
+      "showLabelInSegment": "false",
+      "segmentLabelSize": 10,
+      "segmentAdjustmentMargin": 10,
+    "umlShapeAdjustsShapeSize": "header",
+    "umlElementScaleFactor" :1.0,
+    "umlHeightOffset" : 5,
+    "umlOffsetToHeader" : 10,
+    "umlOffsetToAfterLastElement" : 10
+    ,"umlMarginLeft" : 5
+    ,"umlMarginRight" : 5
+    ,"umlShowDatatypeProperty" : "true"
+    ,"umlDrawHeaderLine" : "true"
+    ,"umlHeaderAlign" : "center"
+    ,"umlPropertyAlign" : "left"
+    ,"umlMarginBetween" : 5
+    ,"umlNestElements" : "dt_loops"
+
+  }
+
+
+}

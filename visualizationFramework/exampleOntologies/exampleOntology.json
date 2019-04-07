@@ -1,0 +1,180 @@
+{
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://example.org/ontologies/exampleOntology", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://example.org/ontologies/exampleOntology#",
+      "dc" : "http://purl.org/dc/elements/1.1/#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title" : {
+      "undefined" : "Example"
+    },
+    "iri" : "http://example.org/ontologies/exampleOntology",
+    "description" : {
+      "undefined" : "New ontology description"
+    },
+    "other" : {
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Example",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "5",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "5",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#Person",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person",
+      "undefined" : "Person"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#Creative_Work",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Creative_Work",
+      "undefined" : "Creative Work"
+    },
+    "id" : "4"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://example.org/ontologies/exampleOntology#name",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "name",
+      "undefined" : "name"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#primary_topic",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "primary_topic",
+      "undefined" : "primary topic"
+    },
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#publication",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "publication",
+      "undefined" : "publication"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "6"
+  },{
+    "iri" : "http://example.org/ontologies/exampleOntology#isCreatedBy",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "isCreatedBy",
+      "undefined" : "isCreatedBy"
+    },
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#knows",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "knows",
+      "undefined" : "knows"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://example.org/ontologies/exampleOntology#age",
+    "baseIri" : "http://example.org/ontologies/exampleOntology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "age",
+      "undefined" : "age"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "8"
+  } ]
+}

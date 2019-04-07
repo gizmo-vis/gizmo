@@ -1,0 +1,156 @@
+{
+"header" : {
+"baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+"prefixList" : {
+"owl" : "http://www.w3.org/2002/07/owl#",
+"rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+"gizmo" : "http://example.org/ontologies/gizmo-core#",
+"default" : "http://example.org/ontologies/default#",
+"xsd" : "http://www.w3.org/2001/XMLSchema#",
+"xml" : "http://www.w3.org/XML/1998/namespace",
+"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+},
+"iri" : "http://example.org/ontologies/default"
+},
+"gizmoAnnotations" : [ 
+{
+"iri" : "http://example.org/ontologies/default#notationOptions",
+"annotations" : {
+"graphBgColor" : "#ECF0F1",
+"layoutAlgorithm" : "force",
+"applyNestedElements" : "false",
+"isTypeOf" : "gizmo:NotationAnnotationObject"
+}
+},{
+"iri" : "http://example.org/ontologies/default#defaultNodeElement",
+"annotations" : {
+"renderingType" : "ellipse",
+"bgColor" : "#cccccc",
+"defaultCollapsedDatatypes" : "false",
+"allowDatatypeCollapseExpand" : "true",
+"defaultCollapsedLoops" : "false",
+"allowLoopCollapseExpand" : "true",
+"fontSizeOverWritesShapeSize" : "true",
+"overWriteOffset" : "20",
+"strokeElement" : "true",
+"strokeStyle" : "solid",
+"strokeWidth" : "2px",
+"strokeColor" : "#000000",
+"fontFamily" : "Helvetica,Arial,sans-serif",
+"fontColor" : "#000000",
+"fontSize" : "12px",
+"hoverInCursor" : "pointer",
+"hoverInColor" : "#ff0000",
+"hoverInStrokeColor" : "#ff0000",
+"hoverInFontColor" : "#000000",
+"hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+"hoverInFontSize" : "12px",
+"isTypeOf" : "gizmo:GlyphAnnotationObject",
+"targetElement" : "default:defaultNodeElement"
+}
+},{
+"iri" : "http://example.org/ontologies/default#defaultDatatypeElement",
+"annotations" : {
+"renderingType" : "rect",
+"bgColor" : "#ffc601",
+"roundedCorner" : "0,0",
+"fontSizeOverWritesShapeSize" : "true",
+"overWriteOffset" : "13",
+"strokeElement" : "false",
+"fontFamily" : "Helvetica,Arial,sans-serif",
+"fontColor" : "#000000",
+"fontSize" : "12px",
+"hoverInCursor" : "pointer",
+"hoverInColor" : "#ff0000",
+"hoverInStrokeColor" : "#ff0000",
+"hoverInFontColor" : "#000000",
+"hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+"hoverInFontSize" : "12px",
+"isTypeOf" : "gizmo:GlyphAnnotationObject",
+"targetElement" : "default:defaultDatatypeElement"
+}
+},{
+"iri" : "http://example.org/ontologies/default#defaultPropertyElement",
+"annotations" : {
+"renderingType" : "ellipse",
+"bgColor" : "#cccccc",
+"fontSizeOverWritesShapeSize" : "true",
+"overWriteOffset" : "20",
+"strokeElement" : "false",
+"link_strokeStyle" : "solid",
+"link_strokeWidth" : "2px",
+"link_strokeColor" : "#000000",
+"link_hoverColor" : "#ff0000",
+"link_arrowHead" : "true",
+"link_renderingType" : "line",
+"link_arrowHead_renderingType" : "triangle",
+"link_arrowHead_scaleFactor" : "1",
+"link_arrowHead_strokeWidth" : "2px",
+"link_arrowHead_strokeStyle" : "solid",
+"link_arrowHead_strokeColor" : "#000000",
+"link_arrowHead_fillColor" : "#000000",
+"fontFamily" : "Helvetica,Arial,sans-serif",
+"fontColor" : "#000000",
+"fontSize" : "12px",
+"hoverInCursor" : "pointer",
+"hoverInColor" : "#ff0000",
+"hoverInStrokeColor" : "#ff0000",
+"hoverInFontColor" : "#000000",
+"hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+"hoverInFontSize" : "12px",
+"isTypeOf" : "gizmo:GlyphAnnotationObject",
+"targetElement" : "default:defaultPropertyElement"
+}
+},{
+"iri" : "http://example.org/ontologies/default#collapsedMultiLinkProperty",
+"annotations" : {
+"renderingType" : "rect",
+"bgColor" : "#acf",
+"roundedCorner" : "0,0",
+"fontSizeOverWritesShapeSize" : "false",
+"width" : "120",
+"height" : "20",
+"strokeElement" : "true",
+"strokeStyle" : "solid",
+"strokeWidth" : "2px",
+"strokeColor" : "#000",
+"link_strokeStyle" : "solid",
+"link_strokeWidth" : "5px",
+"link_strokeColor" : "#000000",
+"link_hoverColor" : "undefined",
+"link_arrowHead" : "false",
+"link_renderingType" : "line",
+"fontFamily" : "Helvetica,Arial,sans-serif",
+"fontColor" : "#000000",
+"fontSize" : "12px",
+"hoverInCursor" : "pointer",
+"hoverInColor" : "#ff0000",
+"hoverInStrokeColor" : "#ff0000",
+"hoverInFontColor" : "#000000",
+"hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+"hoverInFontSize" : "12px",
+"isTypeOf" : "gizmo:GlyphAnnotationObject",
+"targetElement" : "default:collapsedMultiLinkProperty"
+}
+},{
+"iri" : "http://example.org/ontologies/default#nestedNode",
+"annotations" : {
+"renderingType" : "umlStyle",
+"umlShapeAdjustsShapeSize" : "header",
+"umlElementScaleFactor" : "1",
+"umlHeightOffset" : "5",
+"umlOffsetToHeader" : "10",
+"umlOffsetToAfterLastElement" : "10",
+"umlMarginLeft" : "5",
+"umlMarginRight" : "5",
+"umlShowDatatypeProperty" : "true",
+"umlMarginBetween" : "5",
+"umlDrawHeaderLine" : "true",
+"umlHeaderAlign" : "center",
+"umlPropertyAlign" : "left",
+"umlNestElements" : "dt_loops",
+"isTypeOf" : "gizmo:GlyphAnnotationObject",
+"targetElement" : "default:nestedNode"
+}
+}]
+}

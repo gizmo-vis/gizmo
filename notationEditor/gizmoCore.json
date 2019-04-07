@@ -1,0 +1,348 @@
+{
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "gizmo" : "http://example.org/ontologies/gizmo-core#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.semanticweb.org/owl/owlapi/turtle#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "foaf" : "http://xmlns.com/foaf/0.1/",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://example.org/ontologies/gizmo-core#"
+  },
+  "namespace" : [ ],
+  "gizmoAnnotations" : [ {
+    "iri" : "http://example.org/ontologies/gizmo-core#bgColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#radius",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#renderingLayer",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#allowDatatypeCollapseExpand",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#GlyphAnnotationObject",
+    "annotations" : {
+      "annotationObjectDescription" : "We use this to indicate that this entity is of type GlyphAnnotatoinObjects and addresses the depiction of the glyph, which is targeting to an OWL construct (e.g. owl:Class or rdfs:subClassOf)"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#hoverInFontColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#fontFamily",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#fontColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#fontSizeOverWritesShapeSize",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_arrowHead",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlNestElements",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlMarginBetween",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#strokeWidth",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#segmentHeight",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#hoverInStrokeColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#layoutAlgorithm",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#showLabelInSegment",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlMarginLeft",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#inshapeType",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#renderingType",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#segmentLabelSize",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlElementScaleFactor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#double"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlOffsetToHeader",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#hoverInFontSize",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#hoverInCursor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#inshapeStrokeStrokeWidth",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#segmentOffset",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#hoverInColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#segmentType",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlHeightOffset",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#allowLoopCollapseExpand",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#NotationAnnotationObject",
+    "annotations" : {
+      "annotationObjectDescription" : "We use this to indicate that this entity holds notation specific annotations."
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#roundedCorner",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#int"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#graphBgColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#TripleAnnotationObject",
+    "annotations" : {
+      "annotationObjectDescription" : [ " \n  objectDescription view:vao_3 . ", "\n  // assignment of positions and optionally overwriting of visual attributes\n  subjectDescription view:vao_1", "\n  objectTarget: xsd:String", "  \n  predicateDescription view:vao_2", "We use this to indicate that this entity is of type TripleAnnotationObject which are necessary to access the position information of the elements from the context ontoloy.\n  It provides six traget properties. These are address two aspects, the identification of the triple (subject predicate and object as IRI`s ) and the corresponding visual annotation objets. \n  ContextAnnotationObjects\n  e.g\n  // triple identification\n  subjectTarget foaf:Person", " \n  predicateTarget foafName" ]
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_strokeStyle",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#segmentStartAngle",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#VisualizationAnnotationObject",
+    "annotations" : {
+      "annotationObjectDescription" : "We use this to indicate that this entity is of type VisualizationAnnotationObject and addresses spatial and context specific information of elements from the context ontology\n  It does not provide trageting properties."
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#strokeColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_arrowHead_fillColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlOffsetToAfterLastElement",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_arrowHead_renderingType",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#inshapeStrokeColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_hoverColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#inshapeIndicatorOffset",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_renderingType",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#inshapeStrokeType",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_arrowHead_scaleFactor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#double"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#strokeStyle",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#applyNestedElements",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#ViewAnnotationObject",
+    "annotations" : {
+      "annotationObjectDescription" : "We use this to indicate that this entity holds view specific annotations"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_arrowHead_strokeStyle",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#fontSize",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlShowDatatypeProperty",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_arrowHead_strokeWidth",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_strokeWidth",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#width",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#hoverInFontFamily",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#segmentAdjustmentMargin",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_strokeColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#link_arrowHead_strokeColor",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#strokeElement",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlShapeAdjustsShapeSize",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#height",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#umlMarginRight",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }, {
+    "iri" : "http://example.org/ontologies/gizmo-core#overWriteOffset",
+    "annotations" : {
+      "assertionDatatypeValue" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    }
+  } ]
+}
