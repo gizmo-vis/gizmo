@@ -3,11 +3,11 @@
   converting TTL files to JSON is not supported in this release version for the reviewers.
   A converter is implemented and was used to create the JSON files.
   
- <a href=https://gizmo-vis.github.io/gizmo/notationEditor/index.html> GizMO Notation Editor </a>
+ [GizMO Notation Editor](https://gizmo-vis.github.io/gizmo/notationEditor/index.html)
  
  <br>
   
- <a href=https://gizmo-vis.github.io/gizmo/visualizationFramework/index.html> GizMO Visualizaton Framework </a> 
+ [GizMO Visualizaton Framework](https://gizmo-vis.github.io/gizmo/visualizationFramework/index.html)
  
 # GizMO Core Ontology
  The GizMO core ontology can be found TODO!
@@ -30,14 +30,14 @@ The user interface is divided into four parts, as shown in the screenshot.
 This repository is a temporary solution due to the double blind review process of ISWC 2019.
  
 ## Usage
-1) Goto  <a href=https://gizmo-vis.github.io/gizmo/notationEditor/index.html> GizMO Notation Editor </a>
+1) Goto  [GizMO Notation Editor](https://gizmo-vis.github.io/gizmo/notationEditor/index.html)
 2) Create notation and save it as JSON. 
  * In this version we do not provide a backend to parse *.ttl files, however
  you the functionality is implemented and you can take a look at the resulting ontology. 
  * You can also load your designed annotation ontologies (as JSON) files 
  
 ## Example Notations
-Example notations (as *.ttl and *.json) can be found  <a href=https://github.com/gizmo-vis/gizmo/tree/master/notationEditor/exampleNotations> here </a>
+Example notations (as *.ttl and *.json) can be found  [here](https://github.com/gizmo-vis/gizmo/tree/master/notationEditor/exampleNotations)
 
   
   
@@ -73,22 +73,21 @@ Example notations (as *.ttl and *.json) can be found  <a href=https://github.com
         * To create a single file container uncheck this box.
 
     NOTE: Resulting ontologies will be provided as ttl
-    
-      
+         
 
  * Play / Pause
     * Actives or stops the force directed layout 
 
 Right sidebar:
   * Provides customization for rendering glyphs on a local level (detached from the notation)
-    * note
-        * we provide here only the local modification of background colors and shapes
-        * for nested node representations the rendering type should not be changed to circle or ellipse (not implemented yet)
+    * Note
+        * We provide here only the local modification of background colors and shapes
+        * For nested node representations the rendering type should not be changed to circle or ellipse (not implemented yet)
          
     
      
  ## Usage
- 1) Goto  <a href=google.com> GizMO Visualization Framework</a> <br>
+ 1)  [GizMO Visualizaton Framework](https://gizmo-vis.github.io/gizmo/visualizationFramework/index.html)
     This will load an example graph and the default notation.
  
  2) Select an ontology of interest and visualize it with different notations
