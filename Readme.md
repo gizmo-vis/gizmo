@@ -3,14 +3,14 @@
   converting TTL files to JSON is not supported in this release version for the reviewers.
   A converter is implemented and was used to create the JSON files.
   
- <a href=google.com> GizMO Notation Editor </a>
+ <a href=https://gizmo-vis.github.io/gizmo/notationEditor/index.html> GizMO Notation Editor </a>
  
  <br>
   
- <a href=google.com> GizMO Visualizaton Framework </a> 
+ <a href=https://gizmo-vis.github.io/gizmo/visualizationFramework/index.html> GizMO Visualizaton Framework </a> 
  
 # GizMO Core Ontology
- The GizMO core ontology can be found <a href=google.com> here </a>
+ The GizMO core ontology can be found TODO!
  
 # GizMO Notation Editor
  
@@ -30,14 +30,14 @@ The user interface is divided into four parts, as shown in the screenshot.
 This repository is a temporary solution due to the double blind review process of ISWC 2019.
  
 ## Usage
-1) Goto  <a href=google.com> GizMO Notation Editor </a>
+1) Goto  <a href=https://gizmo-vis.github.io/gizmo/notationEditor/index.html> GizMO Notation Editor </a>
 2) Create notation and save it as JSON. 
  * In this version we do not provide a backend to parse *.ttl files, however
  you the functionality is implemented and you can take a look at the resulting ontology. 
  * You can also load your designed annotation ontologies (as JSON) files 
  
 ## Example Notations
-Example notations (as *.ttl and *.json) can be found  <a href=google.com> here </a>
+Example notations (as *.ttl and *.json) can be found  <a href=https://github.com/gizmo-vis/gizmo/tree/master/notationEditor/exampleNotations> here </a>
 
   
   
