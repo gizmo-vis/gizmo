@@ -19,9 +19,12 @@
 The user interface is divided into four parts, as shown in the screenshot.
 
 1) The menu on the left side provides the selection of different OWL constructs and options for the notations.
+
 2) The canvas area in the center depicts a selected OWL construct with its assigned visual properties and corresponding rendering primitives.
+
 3) The menu on the right side provides options for customization of the values for the visual properties.	
 		All changes are directly reflected in the canvas and the left side menu, applying the WYSIWYG paradigm.
+		
 4) The menu at the bottom enables to load and save notations (here as JSON files). 
 
 
@@ -31,6 +34,7 @@ This repository is a temporary solution due to the double blind review process o
  
 ## Usage
 1) Goto  [GizMO Notation Editor](https://gizmo-vis.github.io/gizmo/notationEditor/index.html)
+
 2) Create notation and save it as JSON. 
  * In this version we do not provide a backend to parse *.ttl files, however
  you the functionality is implemented and you can take a look at the resulting ontology. 
@@ -44,7 +48,7 @@ Example notations (as *.ttl and *.json) can be found  [here](https://github.com/
 # GizMO Visualization Framework
  ![alt text](images/gvf.png)
  
- ## Description 
+## Description 
   Navigation Menu:
   * Ontology
     * Provides as set of already converted ontologies (Example Ontology and Muto)
@@ -85,9 +89,8 @@ Right sidebar:
         * For nested node representations the rendering type should not be changed to circle or ellipse (not implemented yet)
          
     
-     
- ## Usage
- 1)  [GizMO Visualizaton Framework](https://gizmo-vis.github.io/gizmo/visualizationFramework/index.html)
+## Usage
+ 1) [GizMO Visualizaton Framework](https://gizmo-vis.github.io/gizmo/visualizationFramework/index.html)<br>
     This will load an example graph and the default notation.
  
  2) Select an ontology of interest and visualize it with different notations
