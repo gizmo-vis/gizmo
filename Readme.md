@@ -3,7 +3,7 @@
   converting TTL files to JSON is not supported in this release version for the reviewers.
   A converter is implemented and was used to create the JSON files.
   
-  The current version of the prototypes are not optimized for mobile devices (e.g., smart phones).
+  The current prototypes are not optimized for mobile devices (e.g., smart phones).
   
  [GizMO Notation Editor](https://gizmo-vis.github.io/gizmo/notationEditor/index.html)
  
