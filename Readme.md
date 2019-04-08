@@ -12,7 +12,7 @@
  [GizMO Visualizaton Framework](https://gizmo-vis.github.io/gizmo/visualizationFramework/index.html)
  
 # GizMO Core Ontology
- The GizMO core ontology can be found TODO!
+ The GizMO core ontology can be found [here](https://github.com/gizmo-vis/gizmo/blob/master/coreOntology/gizmoCore.ttl).
  
 # GizMO Notation Editor
  
