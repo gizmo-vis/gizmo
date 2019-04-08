@@ -98,7 +98,7 @@
     rws.createCSSSelector(".mEntry", "background-color: #fff;" +
         "cursor: pointer;"
     );
-    rws.createCSSSelector(".mEntry_hovered","background-color: #f0f;");
+    rws.createCSSSelector(".mEntry_hovered","background-color: #3A4E66;");
     // This is where we create the gui  and its handler;
     rws.createCSSSelector(".hidden","display: none");
 
