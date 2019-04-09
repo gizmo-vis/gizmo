@@ -14,7 +14,8 @@
     rws.createCSSSelector(".me_hovered","background-color: #18202a;" +
         "color: #aaa;");
 
-
+    rws.createCSSSelector(".fontColorAccordionHeader", "color: #E0E0E0;");
+    rws.createCSSSelector(".fontColorAccordionBody", "color: #E0E0E0;");
 
     rws.createCSSSelector(".mEntry", "background-color: #fff;" +
         "cursor: pointer;"
