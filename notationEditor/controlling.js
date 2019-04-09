@@ -79,6 +79,8 @@
 
     createmappings();
 
+    rws.createCSSSelector(".fontColorAccordionHeader", "color: #E0E0E0;");
+    rws.createCSSSelector(".fontColorAccordionBody", "color: #E0E0E0;");
 
     rws.createCSSSelector(".menu_element_class", "background-color: #18202a;" +
         "cursor: pointer;" +
@@ -174,13 +176,19 @@
 
     // create the left sideBar Handling;
     function initOntologyOptions(container){
-        var iriLabel=container.append("label");
+        var cont=container.append("div");
+        cont.style("margin-left","5px");
+        cont.style("margin-right","5px");
+        cont.style("margin-bottom","5px");
+        cont.style("display","grid");
+
+        var iriLabel=cont.append("label");
         iriLabel.node().innerHTML="IRI:  <br> ";
-        iriInput=container.append("input");
+        iriInput=cont.append("input");
         iriInput.node().value="http://example.org/ontologies/notation_1";
-        var prefixLabel=container.append("label");
+        var prefixLabel=cont.append("label");
         prefixLabel.node().innerHTML="Prefix";
-        prefixInput=container.append("input");
+        prefixInput=cont.append("input");
         prefixInput.node().value="notation_1"
 
 
@@ -224,9 +232,10 @@
         // 3] owl constructor handler , is actually down below;
 
         var defaultElements=lsb.appendAccordionElement("Default Elements Options",true);
+        defaultElements.style("margin-left","5px");
 
-
-        lsb.addDropDownBoxWithButton("Add Element","_addElement_Selection",elementArray,"Add",addElementHandler);
+        var nE=lsb.addDropDownBoxWithButton("Add Element","_addElement_Selection",elementArray,"Add",addElementHandler);
+        nE.style("margin-left","5px");
 
 
         // we need default class, default property, default link;
@@ -298,14 +307,15 @@
     function addAccordionElement(parent,name,pos){
         if (alreadyAddedElements.indexOf(name)===-1){
             alreadyAddedElements.push(name);
-            lsb.addRenderingElement_Accordion(parent,name,pos,onClickFunction);
+            return lsb.addRenderingElement_Accordion(parent,name,pos,onClickFunction);
         }
     }
 
     function addElement(name,pos){
         if (alreadyAddedElements.indexOf(name)===-1){
             alreadyAddedElements.push(name);
-            lsb.addRenderingElement(name,pos,onClickFunction);
+            var cn=lsb.addRenderingElement(name,pos,onClickFunction);
+            cn.style("margin-left","5px");
         }
     }
 
@@ -812,13 +822,14 @@
             var subTitle_ShapeParameter=document.createElement('div');
             rsb.appendHTML_Child(subTitle_ShapeParameter);
             subTitle_ShapeParameter.innerHTML="<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>Hidden Nested Elements</h5>";
-
+            d3.select(subTitle_ShapeParameter).classed("fontColorAccordionHeader",true);
         }
         if (selection.node().value==="inshape") {
-            console.log("rendering inshape stuff")
+
             var subTitle_ShapeParameter = document.createElement('div');
             rsb.appendHTML_Child(subTitle_ShapeParameter);
             subTitle_ShapeParameter.innerHTML = "<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>in shape indicator parameter</h5>";
+            d3.select(subTitle_ShapeParameter).classed("fontColorAccordionHeader",true);
             var inSeg=createSelectionOptions(title, configObject, "inshapeType", ["indicator", "segment"]);
             console.log("Insegment:"+ inSeg.node().value);
             if (inSeg.node().value==="indicator") {
@@ -828,8 +839,9 @@
                 createSpinOption(title, configObject, "inshapeIndicatorOffset");
             }else {
                 // if is segment
-                console.log("rendering segmentS stuff")
                 subTitle_ShapeParameter.innerHTML = "<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>inshape segment parameter</h5>";
+                d3.select(subTitle_ShapeParameter).classed("fontColorAccordionHeader",true);
+
                 createSelectionOptions(title, configObject, "segmentType", ["full", "half", "quarter"]);
                 createSpinOption(title, configObject, "segmentStartAngle");
                 createSpinOption(title, configObject, "segmentHeight");
@@ -861,6 +873,7 @@
             var subTitle_ShapeParameter = document.createElement('div');
             rsb.appendHTML_Child(subTitle_ShapeParameter);
             subTitle_ShapeParameter.innerHTML="<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>UML Style Nested Options</h5>";
+            d3.select(subTitle_ShapeParameter).classed("fontColorAccordionHeader",true);
             createSelectionOptions(title, configObject, "umlNestElements", ["dt_loops"]);
             createSelectionOptions(title, configObject, "umlShapeAdjustsShapeSize", ["none", "header", "datatypes", "loops", "allElements"]);
             createScaleSpinOption(title, configObject, "umlElementScaleFactor");
@@ -942,11 +955,12 @@
         var thisDiv=document.createElement('div');
         rsb.appendHTML_Child(thisDiv);
         var thisDivNode=d3.select(thisDiv);
+        thisDivNode.classed("fontColorAccordionBody",true);
         thisDivNode.style("dispay","grid");
         thisDivNode.style("margin-top","5px");
         thisDivNode.style("width","100%");
         thisDivNode.style("padding","2px 5px");
-
+        thisDivNode.classed("fontColorAccordionBody",true);
         if (eventHidderId){
             // console.log("Event HIder ID "+ eventHidderId);
             thisDivNode.classed(eventHidderId,true);
@@ -998,6 +1012,7 @@
         var thisDivNode=d3.select(thisDiv);
         thisDivNode.style("width","100%");
         thisDivNode.style("padding","2px 5px");
+        thisDivNode.classed("fontColorAccordionBody",true);
         if (eventHandlerId){
             thisDiv.id=eventHandlerId;
         }
@@ -1033,6 +1048,7 @@
         var thisDivNode = d3.select(thisDiv);
         thisDivNode.style("width", "100%");
         thisDivNode.style("padding", "2px 5px");
+        thisDivNode.classed("fontColorAccordionBody",true);
         var paramDiv = thisDivNode.append("div");
         paramDiv.node().id = "spin_param_" + params;
 
@@ -1084,6 +1100,7 @@
         var thisDivNode=d3.select(thisDiv);
         thisDivNode.style("width","100%");
         thisDivNode.style("padding","2px 5px");
+        thisDivNode.classed("fontColorAccordionBody",true);
         var paramDiv=thisDivNode.append("div");
         paramDiv.node().id="spin_param_"+params;
 
@@ -1141,6 +1158,7 @@
         var thisDivNode=d3.select(thisDiv);
         thisDivNode.style("width","100%");
         thisDivNode.style("padding","2px 5px");
+        thisDivNode.classed("fontColorAccordionBody",true);
         if (eventHandlerId){
             thisDiv.id=eventHandlerId;
         }
@@ -1363,6 +1381,7 @@
         var thisDivNode=d3.select(thisDiv);
         thisDivNode.style("width","100%");
         thisDivNode.style("padding","2px 5px");
+        thisDivNode.classed("fontColorAccordionBody",true);
 
         if (eventHidderId){
             thisDivNode.classed(eventHidderId,true);
@@ -1458,6 +1477,7 @@
         var subTitle_ShapeParameter=document.createElement('div');
         rsb.appendHTML_Child(subTitle_ShapeParameter);
         subTitle_ShapeParameter.innerHTML="<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>Shape parameter</h5>";
+        d3.select(subTitle_ShapeParameter).classed("fontColorAccordionHeader",true);
         createShapeParameter(title,configObject,["width","height","radius","roundedCorner"]);
         createSelectionOptions(title,configObject,"fontSizeOverWritesShapeSize",["true","false"]);
         createSpinOption(title,configObject,"overWriteOffset");
@@ -1465,6 +1485,7 @@
         var subTitle_strokeParameter=document.createElement('div');
         rsb.appendHTML_Child(subTitle_strokeParameter);
         subTitle_strokeParameter.innerHTML="<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>Stroke parameter</h5>";
+        d3.select(subTitle_strokeParameter).classed("fontColorAccordionHeader",true);
         //  createSelectionOptions(title,configObject,"strokeElement",["true","false"]);
         // createSelectionOptions(title,configObject,"strokeStyle",["solid","dashed","dotted"]);
         // createSpinOption(title,configObject,"strokeWidth");
@@ -1485,6 +1506,7 @@
             var subTitle_linkParameters=document.createElement('div');
             rsb.appendHTML_Child(subTitle_linkParameters);
             subTitle_linkParameters.innerHTML="<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>Link parameter</h5>";
+            d3.select(subTitle_linkParameters).classed("fontColorAccordionHeader",true);
             createSelectionOptions(title,configObject,"link_strokeStyle",["solid","dashed","dotted"]);
             createSpinOption(title,configObject,"link_strokeWidth");
             createShapeColor(title,configObject,["link_strokeColor","link_hoverColor"]);
@@ -1503,6 +1525,7 @@
         var subTitle_fontParameters=document.createElement('div');
         rsb.appendHTML_Child(subTitle_fontParameters);
         subTitle_fontParameters.innerHTML="<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>Font parameter</h5>";
+        d3.select(subTitle_fontParameters).classed("fontColorAccordionHeader",true);
         createLineEditOption(title,configObject,["fontFamily"]);
         createShapeColor(title,configObject,["fontColor"]);
         createSpinOption(title,configObject,"fontSize");
@@ -1551,6 +1574,7 @@
         var subTitle_hoverInParameters=document.createElement('div');
         rsb.appendHTML_Child(subTitle_hoverInParameters);
         subTitle_hoverInParameters.innerHTML="<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>Hovering parameter</h5>";
+        d3.select(subTitle_hoverInParameters).classed("fontColorAccordionHeader",true);
         createSelectionOptions(title,configObject,"hoverInCursor",cursorArray);
         createShapeColor(title,configObject,["hoverInColor","hoverInStrokeColor","hoverInFontColor"]);
         createLineEditOption(title,configObject,["hoverInFontFamily"]);
@@ -1561,6 +1585,7 @@
             var cdtHeader=document.createElement('div');
             rsb.appendHTML_Child(cdtHeader);
             cdtHeader.innerHTML="<h5 style='margin:5px 0 5px 0;text-align: center;background-color: royalblue;'>Collapsed Options</h5>";
+            d3.select(cdtHeader).classed("fontColorAccordionHeader",true);
             createSelectionOptions(title,configObject,"defaultCollapsedDatatypes",["true","false"]);
             createSelectionOptions(title,configObject,"allowDatatypeCollapseExpand",["true","false"]);
             createSelectionOptions(title,configObject,"defaultCollapsedLoops",["true","false"]);
