@@ -38,8 +38,8 @@
         // "owl:SymmetricProperty",
         // "owl:TransitiveProperty",
         // "rdf:Property",
-        "rdfs:subClassOf",
-        "setOperatorProperty"
+        "rdfs:subClassOf"
+       // "setOperatorProperty"
     ];
     var datatypes=["defaultDatatypeElement","rdfs:Datatype","rdfs:Literal"];
 
@@ -86,6 +86,7 @@
         "cursor: pointer;" +
         "color: #fff;"
     );
+
     rws.createCSSSelector(".hidden", "display: none;");
     rws.createCSSSelector(".menu_element_class2", "background-color: #ccc;" +
         "cursor: pointer;" +
@@ -95,64 +96,114 @@
     rws.createCSSSelector(".me_hovered","background-color: #18202a;" +
         "color: #aaa;");
 
-
-
     rws.createCSSSelector(".mEntry", "background-color: #fff;" +
         "cursor: pointer;"
     );
-    rws.createCSSSelector(".mEntry_hovered","background-color: #3A4E66;");
+
+    rws.createCSSSelector(".mEntry_hovered","background-color: #aaccff;");
     // This is where we create the gui  and its handler;
     rws.createCSSSelector(".hidden","display: none");
 
 
-    var m1=rws.addNavigationMenu("",rws.NAV_POSITION_BOTTOM,"horizontal");
-    m1.setBackgroundColor("#18202a");
+
 
     var graphRenderer= wapi.createAPI();
     rws.setCentralWidget(graphRenderer,"graphRenderer");
     graphRenderer.initialize("graphRenderer",_continueCallBack);
+   // graphRenderer.initialize("graphRenderer",function(){});
     var lsb = rws.addSideMenu("", rws.SIDE_MENU_LEFT, false);
     lsb.setLookUpMap(nodes,properties,datatypes);
     var rsb = rws.addSideMenu("", rws.SIDE_MENU_RIGHT, false);
+    var m1=rws.addNavigationMenu("",rws.NAV_POSITION_TOP,"horizontal");
+    m1.setBackgroundColor("#18202a");
+    graphRenderer.updateCanvasAreaSize("100%", "100%", "0px", "0px");
+    graphRenderer.showFpsAndElementStatistic(false);
+    graphRenderer.setFunctionReEvalPauseButton(function(){ return ; });
+  //  console.log(graphRenderer.elementsConfig);
+    lsb.setBackgroundColor("#18202a");
+    lsb.setSize("220px", "50%", "0px", "-40px");
+    lsb.setAPI(graphRenderer);
+    lsb.getMenuConainer().style("top","40px");
 
+    rsb.setBackgroundColor("#18202a");
+    rsb.setSize("300px", "100%", "0px", "-40px");
+    rsb.setAPI(graphRenderer);
+    rsb.getMenuConainer().style("top","40px");
+    rsb.getMenuConainer().classed("hidden",true);
+
+
+
+
+    var me1 = m1.addMenuEntry("New", "center");
+    me1.setStyle("menu_element_class").setHoverStyle("me_hovered");
+    me1.getMenuEntryDOM().on("click",function(){location.reload();});
+
+    // add save as json
+    var me2 = m1.addMenuEntry("Save ", "center");
+    me2.setStyle("menu_element_class").setHoverStyle("me_hovered");
+
+    var saveJSON=me2.addEntryElement("As JSON");
+   //  saveJSON.setPadding(5,5,0,0,"px");
+    saveJSON.connectOnClick(refactoredSaveCurrentConfigAsJSON);
+
+    var saveTTL=me2.addEntryElement("As TTL");
+    saveTTL.connectOnClick(refactoredSaveAsTTL);
+   // saveTTL.setPadding(5,5,0,0,"px");
+    var me3 = m1.addMenuEntry("Load", "center");
+    me3.setStyle("menu_element_class").setHoverStyle("me_hovered");
+    me3.getMenuEntryDOM().on("click",function(){loadConfigFromJSON();});
+    // me3.hideAllMenus();
+
+    d3.select(window).on("resize", adjustSize);
+
+    adjustSize();
+    m1.hideAllMenus();
+    graphRenderer.getCanvasAreaNode().style("overflow","hidden");
+    graphRenderer.getCanvasSvgRoot().style("overflow","hidden");
+    graphRenderer.getCanvasGraphRoot().style("overflow","hidden");
+    // read the default JSON
+
+    readDatatypeAssertionFile("gizmoCore.json");
     function _continueCallBack() {
-        graphRenderer.updateCanvasAreaSize("100%", "100%", "0px", "-40px");
-        graphRenderer.showFpsAndElementStatistic(false);
-        graphRenderer.setFunctionReEvalPauseButton(function(){ return ; });
-        console.log(graphRenderer.elementsConfig);
-        lsb.setBackgroundColor("#18202a");
-        lsb.setSize("220px", "50%", "0px", "-40px");
-        lsb.setAPI(graphRenderer);
-
-        rsb.setBackgroundColor("#18202a");
-        rsb.setSize("300px", "100%", "0px", "-40px");
-        rsb.setAPI(graphRenderer);
-
-        var me1 = m1.addMenuEntry("New", "center");
-        me1.setStyle("menu_element_class").setHoverStyle("me_hovered");
-        me1.getMenuEntryDOM().on("click",function(){location.reload();});
-
-        // add save as json
-        var me2 = m1.addMenuEntry("Save ", "center");
-        me2.setStyle("menu_element_class").setHoverStyle("me_hovered");
-
-        var saveJSON=me2.addEntryElement("As JSON");
-        saveJSON.connectOnClick(refactoredSaveCurrentConfigAsJSON);
-
-        var saveTTL=me2.addEntryElement("As TTL");
-        saveTTL.connectOnClick(refactoredSaveAsTTL);
-
-        var me3 = m1.addMenuEntry("Load", "center");
-        me3.setStyle("menu_element_class").setHoverStyle("me_hovered");
-        me3.getMenuEntryDOM().on("click",function(){loadConfigFromJSON();});
-        // me3.hideAllMenus();
-
-        d3.select(window).on("resize", adjustSize);
-        addDefaultElements();
         adjustSize();
-        m1.hideAllMenus();
-        // read the default JSON
-        readDatatypeAssertionFile("gizmoCore.json");
+        addDefaultElements();
+        // graphRenderer.updateCanvasAreaSize("100%", "100%", "0px", "0px");
+        // graphRenderer.showFpsAndElementStatistic(false);
+        // graphRenderer.setFunctionReEvalPauseButton(function(){ return ; });
+        // console.log(graphRenderer.elementsConfig);
+        // lsb.setBackgroundColor("#18202a");
+        // lsb.setSize("220px", "50%", "0px", "-40px");
+        // lsb.setAPI(graphRenderer);
+        //
+        // rsb.setBackgroundColor("#18202a");
+        // rsb.setSize("300px", "100%", "0px", "-40px");
+        // rsb.setAPI(graphRenderer);
+        //
+        // var me1 = m1.addMenuEntry("New", "center");
+        // me1.setStyle("menu_element_class").setHoverStyle("me_hovered");
+        // me1.getMenuEntryDOM().on("click",function(){location.reload();});
+        //
+        // // add save as json
+        // var me2 = m1.addMenuEntry("Save ", "center");
+        // me2.setStyle("menu_element_class").setHoverStyle("me_hovered");
+        //
+        // var saveJSON=me2.addEntryElement("As JSON");
+        // saveJSON.connectOnClick(refactoredSaveCurrentConfigAsJSON);
+        //
+        // var saveTTL=me2.addEntryElement("As TTL");
+        // saveTTL.connectOnClick(refactoredSaveAsTTL);
+        //
+        // var me3 = m1.addMenuEntry("Load", "center");
+        // me3.setStyle("menu_element_class").setHoverStyle("me_hovered");
+        // me3.getMenuEntryDOM().on("click",function(){loadConfigFromJSON();});
+        // // me3.hideAllMenus();
+        //
+        // d3.select(window).on("resize", adjustSize);
+        // addDefaultElements();
+        // adjustSize();
+        // m1.hideAllMenus();
+        // // read the default JSON
+        // readDatatypeAssertionFile("gizmoCore.json");
     }
 
     function readDatatypeAssertionFile(fname){
@@ -167,7 +218,7 @@
     }
 
     function adjustSize(){
-        graphRenderer.updateCanvasAreaSize("100%","100%","0px","-40px");
+        graphRenderer.updateCanvasAreaSize("100%","100%","0px","0px");
         m1.updateScrollButtonVisibility();
         lsb.setSize("220px","100%","0px","-40px");
         rsb.setSize("300px","100%","0px","-40px");
@@ -240,12 +291,20 @@
 
         // we need default class, default property, default link;
         addAccordionElement(defaultElements,"defaultNodeElement");
+
         addAccordionElement(defaultElements,"defaultPropertyElement");
+
         addAccordionElement(defaultElements,"defaultDatatypeElement");
+
         addAccordionElement(defaultElements,"collapsedMultiLinkProperty");
         // addAccordionElement(defaultElements,"collapsedDatatypes");
         // addAccordionElement(defaultElements,"collapsedLoops");
         addAccordionElement(defaultElements,"nestedNode");
+        d3.select("#"+"defaultNodeElement").selectAll("label").node().innerHTML="Default node element";
+        d3.select("#"+"defaultPropertyElement").selectAll("label").node().innerHTML="Default property elementt";
+        d3.select("#"+"defaultDatatypeElement").selectAll("label").node().innerHTML="Default datatype element";
+        d3.select("#"+"collapsedMultiLinkProperty").selectAll("label").node().innerHTML="Aggregated link element";
+        d3.select("#"+"nestedNode").selectAll("label").node().innerHTML="Nested node element";
 
 
 
@@ -265,7 +324,8 @@
         // console.log(configObject);
         createGraphBgColorOptions(parent,cfgObject,"Graph bg color ");
         createSelectionOption(parent,cfgObject,"LayoutAlg", "layoutAlgorithm",["force"],["Dynamic Layout Optimization"]);
-        createSelectionOption(parent,cfgObject,"Nested", "applyNestedElements",["true","false"],["UML-Styled visualization","Native Graph Visualization"]);
+        var label=createSelectionOption(parent,cfgObject,"Apply nesting", "applyNestedElements",["true","false"],["UML-Styled visualization","Native Graph Visualization"]);
+        label.node().title="Applies nesting of datatypes , loops, and datatype properties.";
         // createShapeColor(title,configObject,["inshapeStrokeColor"]);
         //
         // // inshape parameters;
@@ -305,8 +365,11 @@
     }
 
     function addAccordionElement(parent,name,pos){
+
+
         if (alreadyAddedElements.indexOf(name)===-1){
             alreadyAddedElements.push(name);
+
             return lsb.addRenderingElement_Accordion(parent,name,pos,onClickFunction);
         }
     }
@@ -316,6 +379,8 @@
             alreadyAddedElements.push(name);
             var cn=lsb.addRenderingElement(name,pos,onClickFunction);
             cn.style("margin-left","5px");
+            cn.classed("fontColorAccordionBody",true);
+            cn.node().offsetParent.scrollTop=cn.node().offsetParent.scrollTopMax;
         }
     }
 
@@ -328,6 +393,8 @@
     }
 
     function onClickFunction(withParam,configObject,labelText) {
+        if (rsb.getMenuConainer().classed("hidden")===true)
+            rsb.getMenuConainer().classed("hidden",false);
         var nodeCfg,dataTypeCfg;
         var nodeCfgName,propertyCfgName;
 
@@ -424,6 +491,7 @@
             graphRenderer.graph.redraw();
             graphRenderer.graph.stopForce();
             graphRenderer.graph.zoomToExtentOfGraph();
+
         }
 
 
@@ -584,8 +652,8 @@
                 graphRenderer.graph.redraw();
                 graphRenderer.graph.stopForce();
                 graphRenderer.graph.zoomToExtentOfGraph();
-
-                createRightSideBarOptionsForCollapsed(withParam, graphRenderer.elementsConfig.nestedNode);
+                var RightSideBarTitle="Nested node parameters";
+                createRightSideBarOptionsForCollapsed(RightSideBarTitle, graphRenderer.elementsConfig.nestedNode);
                 return;
             }
 
@@ -630,6 +698,11 @@
                 graphRenderer.graph.redraw();
                 graphRenderer.graph.stopForce();
                 graphRenderer.graph.zoomToExtentOfGraph();
+
+
+                createRightSideBarOptions("collapsedMultiLinkProperty", configObject,"Aggregated link parameters");
+
+                return;
 
             }
 
@@ -810,7 +883,30 @@
             }
         }
 
-        createRightSideBarOptions(withParam,configObject);
+
+        // update names:
+        var titleName="empty";
+        if (withParam==="owl:Thing") titleName= "OWL thing parameters";
+        if (withParam==="owl:Class") titleName= "OWL class parameters";
+
+        if (withParam==="owl:Datatype") titleName= "OWL datatype parameters";
+        if (withParam==="owl:DatatypeProperty") titleName= "OWL datatype property parameters";
+        if (withParam==="owl:ObjectProperty") titleName= "OWL object property parameters";
+
+
+        if (withParam==="rdfs:subClassOf") titleName= "RDFS subclass of parameters";
+        if (withParam==="rdfs:Resource") titleName= "RDFS resource parameters";
+        if (withParam==="rdfs:Literal") titleName= "RDFS literal parameters";
+
+
+
+        if (withParam==="defaultNodeElement") titleName= "Default node parameters";
+        if (withParam==="defaultPropertyElement") titleName= "Default  property parameters";
+        if (withParam==="defaultDatatypeElement") titleName= "Default  datatype  parameters";
+
+
+        createRightSideBarOptions(withParam,configObject,titleName);
+        graphRenderer.graph.setForcePausedState(true);
     }
 
     function createDynamicDropDownSelection(title, selectionArray, configObject,eventHandler){
@@ -1348,7 +1444,7 @@
             console.log(configObj);
 
         });
-
+        return lb;
 
 
     }
@@ -1464,11 +1560,11 @@
 
     }
 
-    function createRightSideBarOptions(title, configObject){
+    function createRightSideBarOptions(title, configObject, name){
         // console.log("Want to create right sidebar options for "+ title);
 
         rsb.clearMenuContainer();
-        rsb.setTitle(title,"center");
+        rsb.setTitle(name,"center");
         // rendering type and colors;
         createSelectionOptions(title,configObject,"renderingType",["circle","rect","ellipse"]);
         createShapeColor(title,configObject,["bgColor"]);
@@ -1605,12 +1701,21 @@
             nameInConfig=nameInConfig.replace(":","");
         }
         var aDiv=d3.select("#"+nameInConfig);
+        console.log(nameInConfig);
         var htmlContainer=aDiv.node().children;
         var numChildren=htmlContainer.length;
         for (var i=0;i<numChildren;i++){
             htmlContainer[0].remove();
         }
         lsb.drawElementAndConnect(aDiv,name,undefined,onClickFunction);
+
+
+
+        d3.select("#"+"defaultNodeElement").selectAll("label").node().innerHTML="Default node element";
+        d3.select("#"+"defaultPropertyElement").selectAll("label").node().innerHTML="Default property elementt";
+        d3.select("#"+"defaultDatatypeElement").selectAll("label").node().innerHTML="Default datatype element";
+        d3.select("#"+"collapsedMultiLinkProperty").selectAll("label").node().innerHTML="Aggregated link element";
+        d3.select("#"+"nestedNode").selectAll("label").node().innerHTML="Nested node element";
 
     }
 

@@ -20,14 +20,14 @@
     rws.createCSSSelector(".mEntry", "background-color: #fff;" +
         "cursor: pointer;"
     );
-    rws.createCSSSelector(".mEntry_hovered","background-color: #3A4E66;");
+    rws.createCSSSelector(".mEntry_hovered","background-color: #AACCFF;");
     // This is where we create the gui  and its handler;
     rws.createCSSSelector(".hidden","display: none");
 
 
 
 
-    var m1=rws.addNavigationMenu("",rws.NAV_POSITION_BOTTOM,"horizontal");
+    var m1=rws.addNavigationMenu("",rws.NAV_POSITION_TOP,"horizontal");
     m1.setBackgroundColor("#18202a");
 
     var graphRenderer= wapi.createAPI();
@@ -36,9 +36,11 @@
 
     graphRenderer.readDatatypeAssertionFile("core/gizmoCore.json");
 
-    graphRenderer.updateCanvasAreaSize("100%","100%","0px","-40px");
-    graphRenderer.showFpsAndElementStatistic(true);
-
+    graphRenderer.updateCanvasAreaSize("100%","100%","0px","0px");
+    graphRenderer.showFpsAndElementStatistic(false);
+    graphRenderer.getCanvasAreaNode().style("overflow","hidden");
+    graphRenderer.getCanvasSvgRoot().style("overflow","hidden");
+    graphRenderer.getCanvasGraphRoot().style("overflow","hidden");
 
 
     // create right sideBar
@@ -46,35 +48,62 @@
     rsb.setBackgroundColor("#18202a");
     rsb.setSize("300px", "100%", "0px", "-40px");
     rsb.setAPI(graphRenderer);
+    rsb.getMenuConainer().style("top","40px");
+    rsb.getMenuConainer().classed("hidden",true);
 
     /**  ONTOLOGY LOADER ELEMENTS **/
 
     var ontologyLoader= m1.addMenuEntry("Ontology","center");
+
     ontologyLoader.setStyle("menu_element_class").setHoverStyle("me_hovered");
+
     // add buttons and connect them
-    var bt0=ontologyLoader.addEntryElement("Example Container JSON");
-    var bt2=ontologyLoader.addEntryElement("Muto Container JSON");
-    var bt1=ontologyLoader.addEntryElement("Example Ontology");
+    var bt0=ontologyLoader.addEntryElement("Example container JSON");
+    var bt2=ontologyLoader.addEntryElement("Muto container JSON");
+    var bt1=ontologyLoader.addEntryElement("Example ontology");
     var bt3=ontologyLoader.addEntryElement("Muto");
-    var ontoLoader= ontologyLoader.addEntryElement("Load Ontology as File (JSON)");
+    var ontoLoader= ontologyLoader.addEntryElement("Load ontology file (JSON)");
+
+   bt0.setWidth("210px");
+   bt2.setWidth("210px");
+   bt1.setWidth("210px");
+   bt3.setWidth("210px");
+   ontoLoader.setWidth("210px");
+
 
 
     ontoLoader.connectOnClick(function(){
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.graph.clearGraphData();
         graphRenderer.loadGizmoConfig("gizmoNotations/default.json");
         graphRenderer.loadOntologyFromFile();
     });
 
     bt1.connectOnClick(function(){
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.graph.clearGraphData();
         loadLocalJson("exampleOntologies/exampleOntology.json");
     });
 
     bt0.connectOnClick(function(){
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.graph.clearGraphData();
         loadLocalJson("exampleOntologies/Container1.json");
     });
     bt2.connectOnClick(function(){
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.graph.clearGraphData();
         loadLocalJson("exampleOntologies/Container2.json");
     });
@@ -82,74 +111,115 @@
 
 
     bt3.connectOnClick(function(){
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.graph.clearGraphData();
         loadLocalJson("exampleOntologies/muto.json");
     });
 
 
 
-    ontologyLoader.addSvgIconInFront();
+    //ontologyLoader.addSvgIconInFront();
 
 
 
     /**  NOTATION LOADER ELEMENTS **/
 
-    var notationOpts= m1.addMenuEntry("Notations","center");
+    var notationOpts= m1.addMenuEntry("Notation","center");
     notationOpts.setStyle("menu_element_class").setHoverStyle("me_hovered");
 
-    var notationLoader  = notationOpts.addEntryElement("Load Custom Notation");
+
+    var notationLoader  = notationOpts.addEntryElement("Load custom notation");
     var notation1       = notationOpts.addEntryElement("VOWL");
-    var notation2       = notationOpts.addEntryElement("UML Style");
-    var notation3       = notationOpts.addEntryElement("RDF Style");
-    var notation4       = notationOpts.addEntryElement("Example Notation");
+    var notation2       = notationOpts.addEntryElement("UML style");
+    var notation3       = notationOpts.addEntryElement("RDF style");
+    var notation4       = notationOpts.addEntryElement("Example notation");
+
+
+
+    notation1.setWidth("180px");
+    notation2.setWidth("180px");
+    notation3.setWidth("180px");
+    notation4.setWidth("180px");
+    notationLoader.setWidth("180px");
 
 
     notation1.connectOnClick(function(){
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.loadGizmoConfig("gizmoNotations/vowl.json");
     });
 
     notation2.connectOnClick(function(){
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.loadGizmoConfig("gizmoNotations/umlStyle.json");
     });
     notation3.connectOnClick(function(){
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.loadGizmoConfig("gizmoNotations/default.json");
     });
     notation4.connectOnClick(function(){
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.loadGizmoConfig("gizmoNotations/exampleNotation.json");
     });
 
 
     notationLoader.connectOnClick(function () {
         // TODO MAKE IT LOAD TTL FILES
+        rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===false){
+            rsb.getMenuConainer().classed("hidden",true);
+        }
         graphRenderer.loadNotationFromJSONFile();
     });
 
 
 
     var viewOpts= m1.addMenuEntry("Create View","center");
-    viewOpts.setWidth("220px");
+    viewOpts.setWidth("120px");
     viewOpts.setStyle("menu_element_class").setHoverStyle("me_hovered");
 
     var bt_appendNewView=viewOpts.addEntryElement("Append view");
      bt_appendNewView.connectOnClick(function(){
          graphRenderer.appendViewDialog();
     });
+    bt_appendNewView.setWidth("120px");
     var viewsContainer= m1.addMenuEntry("Views","center");
     viewsContainer.setStyle("menu_element_class").setHoverStyle("me_hovered");
     viewsContainer.classed("hidden",true);
+    viewsContainer.setWidth("120px");
 
-
-    var notationContainer= m1.addMenuEntry("Provided Notations","center");
+    var notationContainer= m1.addMenuEntry("Provided notations","center");
     notationContainer.setStyle("menu_element_class").setHoverStyle("me_hovered");
-    notationContainer.setWidth("220px");
+    notationContainer.setWidth("180px");
+    notationContainer.setMargin(0,-15,0,15,"px");
+
+
     notationContainer.classed("hidden",true);
 
 
 
     var menuExport= m1.addMenuEntry("Export","center");
     menuExport.setStyle("menu_element_class").setHoverStyle("me_hovered");
+    menuExport.setWidth("120px");
+    menuExport.setMargin(0,0,0,15,"px");
     // var bt_exportSpec      = menuExport.addEntryElement("Specification");
     var bt_exportContainer = menuExport.addEntryElement("Container");
+    bt_exportContainer.setWidth("90px");
+    bt_exportContainer.setMargin(0,0,0,10,"px");
     // bt_exportSpec.connectOnClick(graphRenderer.saveSpecificationAsTTL);
     bt_exportContainer.connectOnClick(graphRenderer.saveContainerAsTTL);
     // var bt_overWriteView=viewOpts.addEntryElement("Overwrite View");
@@ -164,6 +234,7 @@
     graphRenderer.setRightSideElementsFunction(_createRightSideElements);
 
     var pauseButton= m1.addMenuEntry("Pause","center");
+    pauseButton.setWidth("90px");
     pauseButton.setStyle("menu_element_class").setHoverStyle("me_hovered");
     // overwrite onClick event;
     pauseButton.getMenuEntryDOM().on("click",function(){
@@ -180,6 +251,9 @@
 
     function _createRightSideElements(element){
         rsb.clearMenuContainer();
+        if (rsb.getMenuConainer().classed("hidden")===true){
+            rsb.getMenuConainer().classed("hidden",false);
+        }
         var nodeElement=true;
         if (!element.getLabelText){
             nodeElement=false;
@@ -245,6 +319,8 @@
         var bt=notationContainer.addEntryElement(prefix);
         bt.appendAttribute("NotationIndex",numOfNotations);
         bt.appendAttribute("iri",iri);
+        bt.setWidth("150px");
+        bt.setMargin(0,0,0,15,"px");
         numOfNotations++;
         notationContainer.setTitle("Provided Notations (" + numOfNotations + ")");
         bt.connectOnClick(function(){
@@ -279,10 +355,14 @@
             viewsContainer.classed("hidden", true);
         }
 
+        viewsContainer.setMargin(0,10,0,15,"px");
         for (var i=0;i<numViews;i++){
             var ind=i+1;
             var bt=viewsContainer.addEntryElement("View "+ind);
+            bt.setWidth("80px");
+            bt.setMargin(0,0,0,15,"px");
             bt.appendAttribute("viewIndex",i);
+
             bt.connectOnClick(function(){
                 var id=parseInt(this.getAttribute("viewIndex"));
                 // console.log("telling the graph to load view by index " + id);
@@ -312,8 +392,9 @@
     d3.select(window).on("resize", adjustSize);
 
     function adjustSize(){
-        graphRenderer.updateCanvasAreaSize("100%","100%","0px","-40px");
+        graphRenderer.updateCanvasAreaSize("100%","100%","0px","0px");
         m1.updateScrollButtonVisibility();
+        rsb.setSize("300px","100%","0px","-40px");
     }
     adjustSize();
 
