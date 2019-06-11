@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>GizMO Prototypes ISWC 2019 | gizmo</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="GizMO Prototypes ISWC 2019" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://gizmo-vis.github.io/gizmo/" />
+<meta property="og:url" content="https://gizmo-vis.github.io/gizmo/" />
+<meta property="og:site_name" content="gizmo" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"GizMO Prototypes ISWC 2019","url":"https://gizmo-vis.github.io/gizmo/","name":"gizmo","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/gizmo/assets/css/style.css?v=f308fdc2961496a16d5b7b6f5338c8a2939e1c44">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://gizmo-vis.github.io/gizmo/">gizmo</a></h1>
+      
+
+      <h1 id="gizmo-prototypes-iswc-2019">GizMO Prototypes ISWC 2019</h1>
+<p><b><u>Note:</u></b> Both prototypes provide features to export as TTL, however 
+  converting TTL files to JSON is not supported in this release version for the reviewers.
+  A converter is implemented and was used to create the JSON files.</p>
+
+<p>The current prototypes are not optimized for mobile devices (e.g., smart phones).</p>
+
+<p><a href="https://gizmo-vis.github.io/gizmo/notationEditor/index.html">GizMO Notation Editor</a></p>
+
+<p><br /></p>
+
+<p><a href="https://gizmo-vis.github.io/gizmo/visualizationFramework/index.html">GizMO Visualizaton Framework</a></p>
+
+    <iframe src="https://drive.google.com/file/d/1cbSbmxzd0YMnq5YnqSOUvjgVU-oczCPI/preview" width="640" height="480"></iframe>
+
+<h1 id="gizmo-core-ontology">GizMO Core Ontology</h1>
+<p>The GizMO core ontology can be found <a href="https://github.com/gizmo-vis/gizmo/blob/master/coreOntology/gizmoCore.ttl">here</a>.</p>
+
+<h1 id="gizmo-notation-editor">GizMO Notation Editor</h1>
+
+<p><img src="/gizmo/images/gne.png" alt="alt text" /></p>
+
+<p>The user interface is divided into four parts, as shown in the screenshot.</p>
+
+<p>1) The menu on the left side provides the selection of different OWL constructs and options for the notations.</p>
+
+<p>2) The canvas area in the center depicts a selected OWL construct with its assigned visual properties and corresponding rendering primitives.</p>
+
+<p>3) The menu on the right side provides options for customization of the values for the visual properties.	
+		All changes are directly reflected in the canvas and the left side menu, applying the WYSIWYG paradigm.</p>
+
+<p>4) The menu at the bottom enables to load and save notations (here as JSON files).</p>
+
+<h2 id="description">Description</h2>
+
+<p>This repository is a temporary solution due to the double blind review process of ISWC 2019.</p>
+
+<h2 id="usage">Usage</h2>
+<p>1) Goto  <a href="https://gizmo-vis.github.io/gizmo/notationEditor/index.html">GizMO Notation Editor</a></p>
+
+<p>2) Create notation and save it as JSON.</p>
+<ul>
+  <li>In this version we do not provide a backend to parse *.ttl files, however
+ you the functionality is implemented and you can take a look at the resulting ontology.</li>
+  <li>You can also load your designed annotation ontologies (as JSON) files</li>
+</ul>
+
+<h2 id="example-notations">Example Notations</h2>
+<p>Example notations (as *.ttl and *.json) can be found  <a href="https://github.com/gizmo-vis/gizmo/tree/master/notationEditor/exampleNotations">here</a></p>
+
+<h1 id="gizmo-visualization-framework">GizMO Visualization Framework</h1>
+<p><img src="/gizmo/images/gvf.png" alt="alt text" /></p>
+
+<h2 id="description-1">Description</h2>
+<p>Navigation Menu:</p>
+<ul>
+  <li>Ontology
+    <ul>
+      <li>Provides as set of already converted ontologies (Example Ontology and Muto)</li>
+      <li>Provides as set of already converted containers (Example Ontology and Muto)
+        <ul>
+          <li>Containers provide some views</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Notations
+    <ul>
+      <li>A set of already converted notations</li>
+      <li>allows to load custom notations (as JSON)</li>
+    </ul>
+  </li>
+  <li>Create View
+    <ul>
+      <li>Append view will open a dialog and ask the user for a prefix and iri for the new view
+ (defaults are view_index and http://example.org/view_index)</li>
+    </ul>
+  </li>
+  <li>Select View (Optional)
+    <ul>
+      <li>Allows to switch between loaded views</li>
+    </ul>
+  </li>
+  <li>Provided Notations(Optional)
+    <ul>
+      <li>Allows to switch between loaded notations (also when custom notations are stored in the container)</li>
+    </ul>
+  </li>
+  <li>Export
+    <ul>
+      <li>
+        <p>Provides a dialog where the loaded notations and views are listed.<br />
+  Setting the checkboxes will add those to the final container.</p>
+      </li>
+      <li>
+        <p>Separated Files: If checked will create a zip file with all ontologies separated.
+   A container ontology will be created which includes all other ontologies using &lt; owl:imports &gt;
+   Additionally a 'Show Content' button will be added to notations and views.</p>
+
+        <ul>
+          <li>To create a single file container uncheck this box.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>NOTE: Resulting ontologies will be provided as ttl</p>
+  </li>
+  <li>Play / Pause
+    <ul>
+      <li>Actives or stops the force directed layout</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Right sidebar:</p>
+<ul>
+  <li>Provides customization for rendering glyphs on a local level (detached from the notation)
+    <ul>
+      <li>Note
+        <ul>
+          <li>We provide here only the local modification of background colors and shapes</li>
+          <li>For nested node representations the rendering type should not be changed to circle or ellipse (not implemented yet)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="usage-1">Usage</h2>
+<p>1) <a href="https://gizmo-vis.github.io/gizmo/visualizationFramework/index.html">GizMO Visualizaton Framework</a><br />
+    This will load an example graph and the default notation.</p>
+
+<p>2) Select an ontology of interest and visualize it with different notations
+ 3) Select a container and see what notations and views are already provided in the container :)</p>
+
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
